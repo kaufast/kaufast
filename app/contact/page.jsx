@@ -1,4 +1,4 @@
-import MarqueeComponent from "@/components/common/Marquee";
+// import MarqueeComponent from "@/components/common/Marquee";
 import Breadcumb from "@/components/contact/Breadcumb";
 import Contact from "@/components/contact/Contact";
 import ContactInfo from "@/components/contact/ContactInfo";
@@ -18,7 +18,7 @@ export default function ContactPage() {
       <Breadcumb />
       <ContactInfo />
       <Contact />
-      <MarqueeComponent />
+      {/* <MarqueeComponent /> */}
       <Footer8 />
     </>
   );

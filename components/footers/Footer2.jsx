@@ -57,13 +57,13 @@ export default function Footer2() {
                 <h3 className="widget_title">Contact</h3>
                 <ul className="contact-info-list">
                   <li>
-                    27 Division St, New York, <br /> NY 10002, USA
+                    C. de la Ribera 14, 08003, <br /> Barcelona, España
                   </li>
                   <li>
                     <a href="tel:1800123654987">+1 800 123 654 987</a>
                     <br />
-                    <a href="mailto:frisk.agency@mail.com">
-                      frisk.agency@mail.com
+                    <a href="mailto:kaufast@gmail.com">
+                      info@kaufast.com
                     </a>
                   </li>
                 </ul>
@@ -78,8 +78,8 @@ export default function Footer2() {
             <div className="col-md-6">
               <p className="copyright-text">
                 Copyright © {new Date().getFullYear()}{" "}
-                <a href="https://themeforest.net/user/ib-themes/portfolio">
-                  ib-themes
+                <a href="https://kaufast.com">
+                  KauFast
                 </a>
               </p>
             </div>

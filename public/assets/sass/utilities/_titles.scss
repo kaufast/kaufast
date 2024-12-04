@@ -7,7 +7,36 @@
         letter-spacing: normal;
     }
 }
-  
+.crossed-in-title {
+    margin-bottom: calc(var(--section-title-space) - 43px);
+    margin-top: -0.18em;
+    font-weight: 600;
+    letter-spacing: -1.8px;
+    font-size: 45px; /* Same as sec-title for consistency */
+    text-align: center; /* Center alignment */
+}
+
+.crossed-text {
+    color: black; /* Black text */
+    font-weight: bold;
+    position: relative; /* Necessary for pseudo-element positioning */
+}
+
+.crossed-text::after {
+    content: ''; /* Add the marker stroke as a pseudo-element */
+    position: absolute;
+    left: -5%; /* Slightly extend beyond the text */
+    right: -5%;
+    top: 45%; /* Vertically centered */
+    height: 18px; /* Stroke thickness */
+    background-color: transparent; /* Transparent base */
+    background-image: linear-gradient(to right, red, rgba(255, 0, 0, 0.6)); /* Marker-like gradient */
+    z-index: 1; /* Ensure it stays above the text */
+    transform: rotate(-8deg); /* Slight diagonal tilt */
+    transform-origin: center; /* Pivot from center */
+    border-radius: 6px; /* Adds softness to mimic a marker */
+    opacity: 1.6; /* Adds a slightly transparent look */
+}
 .sub-title {
     color: $theme-color;
     text-transform: uppercase;
@@ -202,5 +231,16 @@
         height: auto;
         text-align: center;
         margin-bottom: 40px;
+    }
+}
+@include sm {
+    .crossed-in-title {
+        font-size: 32px;
+    }
+}
+
+@include xs {
+    .crossed-in-title {
+        font-size: 30px;
     }
 }

@@ -51,8 +51,8 @@ export default function Projects() {
                       className="link-btn"
                     >
                       <span className="link-effect">
-                        <span className="effect-1">VIEW PROJECT</span>
-                        <span className="effect-1">VIEW PROJECT</span>
+                        <span className="effect-1">Explorar Más</span>
+                        <span className="effect-1">Explorar Más</span>
                       </span>
                       <Image
                         width={13}
@@ -70,8 +70,8 @@ export default function Projects() {
           <div className="col-12 text-center">
             <Link scroll={false} href="/project" className="btn style2 mt-30">
               <span className="link-effect">
-                <span className="effect-1">VIEW ALL PROJECTS</span>
-                <span className="effect-1">VIEW ALL PROJECTS</span>
+                <span className="effect-1">VER MÁS PROJECTS</span>
+                <span className="effect-1">VER MÁS PROJECTS</span>
               </span>
             </Link>
           </div>

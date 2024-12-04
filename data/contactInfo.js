@@ -1,46 +1,45 @@
 export const contactInfo = [
   {
     iconSrc: "/assets/img/icon/phone.svg",
-    title: "Contact with Us",
+    title: "Pongamonós en Contácto",
 
     text: "Good website tells a story that will make users fully immerse themselves operating",
-    linkText: "+1 800 123 654 987",
-    linkUrl: "tel:1800123654987",
+    linkText: "+34 689 219 866",
+    linkUrl: "tel:00346689219866",
   },
   {
     iconSrc: "/assets/img/icon/speech-bubble.svg",
-    title: "Send a Message",
+    title: "Enviar Mensaje",
 
     text: "Good website tells a story that will make users fully immerse themselves operating",
-    linkText: "frisk.agency@mail.com",
-    linkUrl: "mailto:frisk.agency@mail.com",
+    linkText: "info@kaufast.com",
+    linkUrl: "mailto:info@kaufast.com",
   },
   // Add more feature cards as needed
 ];
 export const contactInfo2 = [
   {
     iconSrc: "/assets/img/icon/location-pin-alt.svg",
-    title: "Headquarters",
-    address: "27 Division St, New York,",
-    city: "NY 10002, USA",
+    title: "Oficina",
+    address: "C. de la Ribera 14, 08003,",
+    city: "Barcelona, España",
     linkUrl: "https://maps.google.com",
-    linkText: "Get direction",
+    linkText: "Cómo llegar",
   },
   {
     iconSrc: "/assets/img/icon/speech-bubble.svg",
-    title: "Email Address",
-    email: "frisk.agency@mail.com",
-    email2: "frisk.agency@mail.com",
-    linkUrl: "mailto:frisk.agency@mail.com",
+    title: "Email",
+    email: "info@kaufast.com",
+    email2: "info@kaufast.com",
+    linkUrl: "mailto:info@kaufast.com",
 
-    linkText: "Send message",
+    linkText: "Enviar mensaje",
   },
   {
     iconSrc: "/assets/img/icon/phone.svg",
-    title: "Phone Number",
-    phoneNumber1: "+1 800 123 654 987",
-    phoneNumber2: "+1 800 223 984 002",
-    linkUrl: "tel:1800123654987",
-    linkText: "Call anytime",
+    title: "Número de Teléfono",
+    phoneNumber1: "+34 689 219 866",
+    linkUrl: "tel:00346689219866",
+    linkText: "Llámanos",
   },
 ];

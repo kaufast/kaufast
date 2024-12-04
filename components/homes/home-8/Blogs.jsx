@@ -46,8 +46,8 @@ export default function Blogs() {
                     className="link-btn"
                   >
                     <span className="link-effect">
-                      <span className="effect-1">READ MORE</span>
-                      <span className="effect-1">READ MORE</span>
+                      <span className="effect-1">Descubre Más</span>
+                      <span className="effect-1">Descubre Más</span>
                     </span>
                     <Image
                       width={13}

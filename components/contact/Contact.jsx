@@ -10,7 +10,7 @@ export default function Contact() {
         style={{ top: "-100px", left: 0, bottom: "140px" }}
       >
         <iframe
-          src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&t=m&z=10&output=embed&iwloc=near"
+          src="https://maps.google.com/maps?q=Calle%20Ribera%2014,%2008004,%20Barcelona,%20Spain&t=m&z=13xx&output=embed&iwloc=near"
           allowFullScreen=""
           loading="lazy"
         ></iframe>
@@ -20,10 +20,10 @@ export default function Contact() {
           <div className="col-lg-6">
             <div className="contact-form-wrap">
               <div className="title-area mb-30">
-                <h2 className="sec-title">Have Any Project on Your Mind?</h2>
+                <h2 className="sec-title">¿Mejoraramos tu visibilidad online?</h2>
                 <p>
-                  Great! We're excited to hear from you and let's start
-                  something
+                ¡Hablemos! Estamos aquí para ayudarte a atraer más clientes, mejorar tu visibilidad en Google y llevar tu negocio al siguiente nivel.
+
                 </p>
               </div>
               <form
@@ -39,7 +39,7 @@ export default function Contact() {
                         className="form-control style-border"
                         name="name"
                         id="name"
-                        placeholder="Full name*"
+                        placeholder="Nombre*"
                       />
                     </div>
                   </div>
@@ -51,7 +51,7 @@ export default function Contact() {
                         className="form-control style-border"
                         name="email"
                         id="email"
-                        placeholder="Email address*"
+                        placeholder="correo eléctronico*"
                       />
                     </div>
                   </div>
@@ -63,7 +63,7 @@ export default function Contact() {
                         className="form-control style-border"
                         name="website"
                         id="website"
-                        placeholder="Website link"
+                        placeholder="Enlace de tu sitio web (si cuentas con una)"
                       />
                     </div>
                   </div>
@@ -72,7 +72,7 @@ export default function Contact() {
                       <textarea
                         required
                         name="message"
-                        placeholder="How Can We Help You*"
+                        placeholder="Cuéntanos cómo podemos ayudare*"
                         id="contactForm"
                         className="form-control style-border"
                       ></textarea>
@@ -82,8 +82,8 @@ export default function Contact() {
                 <div className="form-btn col-12">
                   <button type="submit" className="btn mt-20">
                     <span className="link-effect">
-                      <span className="effect-1">SEND MESSAGE</span>
-                      <span className="effect-1">SEND MESSAGE</span>
+                      <span className="effect-1">ENVIA MENSAJE</span>
+                      <span className="effect-1">ENVIA MENSAJE</span>
                     </span>
                   </button>
                 </div>

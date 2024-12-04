@@ -41,15 +41,15 @@ export default function SideMenu({ isOpen, setIsOpen }) {
               engaging
             </p>
             <div className="sidebar-wrap">
-              <h6>27 Division St, New York,</h6>
-              <h6>NY 10002, USA</h6>
+              <h6>C. de la Ribera 14, 08003,</h6>
+              <h6>Barcelona, España</h6>
             </div>
             <div className="sidebar-wrap">
               <h6>
                 <a href="tel:1800123654987">+1 800 123 654 987 </a>
               </h6>
               <h6>
-                <a href="mailto:frisk.agency@mail.com">frisk.agency@mail.com</a>
+                <a href="mailto:kaufast@gmail.com">info@kaufast.com</a>
               </h6>
             </div>
             <div className="social-btn style2">

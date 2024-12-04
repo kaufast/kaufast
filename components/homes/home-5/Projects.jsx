@@ -62,8 +62,8 @@ export default function Projects() {
             className="btn bg-theme text-title"
           >
             <span className="link-effect">
-              <span className="effect-1">VIEW ALL PROJECTS</span>
-              <span className="effect-1">VIEW ALL PROJECTS</span>
+              <span className="effect-1">VER MÁS PROJECTS</span>
+              <span className="effect-1">VER MÁS PROJECTS</span>
             </span>
           </Link>
         </div>

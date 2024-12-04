@@ -68,8 +68,8 @@ export default function Projects() {
                     className="link-btn"
                   >
                     <span className="link-effect">
-                      <span className="effect-1">VIEW PROJECT</span>
-                      <span className="effect-1">VIEW PROJECT</span>
+                      <span className="effect-1">Explorar Más</span>
+                      <span className="effect-1">Explorar Más</span>
                     </span>
                     <Image
                       width={13}

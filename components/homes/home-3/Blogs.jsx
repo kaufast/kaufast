@@ -13,7 +13,7 @@ export default function Blogs() {
             <div className="sec_title_static">
               <div className="sec_title_wrap">
                 <div className="title-area">
-                  <h2 className="sec-title">Read Our Articles and News</h2>
+                  <h2 className="sec-title">Novedades y Contenido para Ti</h2>
                 </div>
               </div>
             </div>
@@ -49,8 +49,8 @@ export default function Blogs() {
                         className="link-btn"
                       >
                         <span className="link-effect">
-                          <span className="effect-1">READ MORE</span>
-                          <span className="effect-1">READ MORE</span>
+                          <span className="effect-1">Descubre Más</span>
+                          <span className="effect-1">Descubre Más</span>
                         </span>
                         <Image
                           width={13}

@@ -2,7 +2,7 @@ export const featureData = [
   {
     id: 1,
     iconSrc: "/assets/img/icon/feature-icon1-1.svg",
-    title: "Branding Design",
+    title: "SEO Local / Internacional",
     text: "We care success relationships fuel real success. We love building brands and helping",
   },
   {
@@ -14,13 +14,13 @@ export const featureData = [
   {
     id: 3,
     iconSrc: "/assets/img/icon/feature-icon1-3.svg",
-    title: "Illustration Modelling",
+    title: "Pago por Click (PPC)",
     text: "We care success relationships fuel real success. We love building brands and helping",
   },
   {
     id: 4,
     iconSrc: "/assets/img/icon/feature-icon1-4.svg",
-    title: "Digital Marketing",
+    title: "Google Ads",
     text: "We care success relationships fuel real success. We love building brands and helping",
   },
 ];
@@ -34,7 +34,7 @@ export const featureData2 = [
   {
     id: 6,
     icon: "/assets/img/icon/feature-icon1-2.svg",
-    title: "Web Development",
+    title: "SEO Local / Internacional",
     text: "We care success relationships fuel success we love building",
   },
   {

@@ -12,7 +12,7 @@ export default function Features() {
             <div className="sec_title_static">
               <div className="sec_title_wrap">
                 <div className="title-area">
-                  <h2 className="sec-title">What We Can Do for Our Clients</h2>
+                  <h2 className="sec-title">Cómo Ayudamos a Nuestros Clientes</h2>
                 </div>
               </div>
             </div>

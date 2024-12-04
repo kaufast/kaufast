@@ -9,15 +9,14 @@ export default function Cta() {
         <div className="row justify-content-xl-between justify-content-center">
           <div className="col-xl-5 col-lg-10">
             <div className="title-area mb-xl-0 mb-40">
-              <h2 className="sec-title">Let’s Work Together</h2>
+              <h2 className="sec-title">Hazte Visible</h2>
               <p className="sec-text mt-30 mb-n2">
-                We are digital agency that helps businesses develop immersive
-                and engaging user experiences
+              Unimos fuerzas para darte el superpoder de destacar online y crecer sin límites.
               </p>
               <p className="copyright-text mt-4 mb-3">
                 Copyright © 2024
-                <a href="https://themeforest.net/user/ib-themes/portfolio">
-                  ib-themes
+                <a href="https://kaufast.com">
+                  KauFast
                 </a>
               </p>
               <div className="social-btn style3 justify-content-xl-start justify-content-center">
@@ -79,8 +78,8 @@ export default function Cta() {
                 <div className="form-btn col-12">
                   <button type="submit" className="btn mt-20">
                     <span className="link-effect">
-                      <span className="effect-1">SEND MESSAGE</span>
-                      <span className="effect-1">SEND MESSAGE</span>
+                      <span className="effect-1">CONTÁCTANOS</span>
+                      <span className="effect-1">AGENDEMOS LLAMADA</span>
                     </span>
                   </button>
                 </div>

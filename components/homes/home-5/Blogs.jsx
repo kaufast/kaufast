@@ -11,7 +11,7 @@ export default function Blogs() {
           <div className="col-xxl-7 col-xl-6 col-lg-8">
             <div className="title-area text-center">
               <h2 className="sec-title  text-smoke">
-                Read Our Articles and News
+                Novedades y Contenido para Ti
               </h2>
             </div>
           </div>
@@ -46,8 +46,8 @@ export default function Blogs() {
                     className="link-btn"
                   >
                     <span className="link-effect">
-                      <span className="effect-1">READ MORE</span>
-                      <span className="effect-1">READ MORE</span>
+                      <span className="effect-1">Descubre Más</span>
+                      <span className="effect-1">Descubre Más</span>
                     </span>
                     <Image
                       width={13}

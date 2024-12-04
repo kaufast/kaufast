@@ -48,8 +48,8 @@ export default function About() {
                       className="link-btn text-theme"
                     >
                       <span className="link-effect">
-                        <span className="effect-1">ABOUT US</span>
-                        <span className="effect-1">ABOUT US</span>
+                        <span className="effect-1">CÓNOCENOS</span>
+                        <span className="effect-1">CÓNOCENOS</span>
                       </span>
                       <Image
                         width={13}

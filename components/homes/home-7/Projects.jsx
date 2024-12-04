@@ -43,8 +43,8 @@ export default function Projects() {
         <div className="btn-wrap mt-50 justify-content-center">
           <Link scroll={false} href="/project" className="btn">
             <span className="link-effect">
-              <span className="effect-1">VIEW ALL PROJECTS</span>
-              <span className="effect-1">VIEW ALL PROJECTS</span>
+              <span className="effect-1">VER MÁS PROJECTS</span>
+              <span className="effect-1">VER MÁS PROJECTS</span>
             </span>
           </Link>
         </div>

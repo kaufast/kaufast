@@ -78,8 +78,8 @@ export default function Portfolio() {
                     className="link-btn"
                   >
                     <span className="link-effect">
-                      <span className="effect-1">VIEW PROJECT</span>
-                      <span className="effect-1">VIEW PROJECT</span>
+                      <span className="effect-1">Explorar Más</span>
+                      <span className="effect-1">Explorar Más</span>
                     </span>
                     <Image
                       width={13}
@@ -100,8 +100,8 @@ export default function Portfolio() {
                 href="/project"
               >
                 <span className="link-effect">
-                  <span className="effect-1">VIEW ALL</span>
-                  <span className="effect-1">VIEW ALL</span>
+                  <span className="effect-1">VER MÁS</span>
+                  <span className="effect-1">VER MÁS</span>
                 </span>
               </Link>
             </div>

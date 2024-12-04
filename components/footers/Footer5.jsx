@@ -11,18 +11,17 @@ export default function Footer5() {
         <div className="container">
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-6">
-              <h2 className="footer-top-title">Let’s Work Together</h2>
+              <h2 className="footer-top-title">Hazte Visible</h2>
             </div>
             <div className="col-lg-5">
               <div className="footer-top-wrap">
                 <p className="mb-30">
-                  We are digital agency that helps businesses develop immersive
-                  and engaging user experiences
+                Unimos fuerzas para darte el superpoder de destacar online y crecer sin límites.
                 </p>
                 <Link scroll={false} href="/project" className="btn">
                   <span className="link-effect">
-                    <span className="effect-1">LET'S TALK WITH US</span>
-                    <span className="effect-1">LET'S TALK WITH US</span>
+                    <span className="effect-1">CONTÁCTANOS</span>
+                    <span className="effect-1">AGENDEMOS UNA LLAMADA</span>
                   </span>
                 </Link>
               </div>
@@ -74,15 +73,15 @@ export default function Footer5() {
           <div className="row gy-3 justify-content-between align-items-center">
             <div className="col-md-6">
               <p>
-                27 Division St, New York, <br />
-                NY 10002, USA
+                C. de la Ribera 14, 08003, <br />
+                Barcelona, España
               </p>
             </div>
             <div className="col-md-6 align-self-center text-md-end">
               <p className="copyright-text">
                 <a href="tel:1800123654987"> +1 800 123 654 987 </a>
                 <br />
-                <a href="mailto:frisk.agency@mail.com">frisk.agency@mail.com</a>
+                <a href="mailto:kaufast@gmail.com">info@kaufast.com</a>
               </p>
             </div>
           </div>

@@ -20,10 +20,9 @@ export default function Contact() {
           <div className="col-lg-6">
             <div className="contact-form-wrap">
               <div className="title-area mb-30">
-                <h2 className="sec-title">Have Any Project on Your Mind?</h2>
+                <h2 className="sec-title">Trabajemos para convertir ideas en resultados.</h2>
                 <p>
-                  Great! We're excited to hear from you and let's start
-                  something
+                    ¡Genial! Estamos emocionados de saber de ti y de comenzar algo juntos.
                 </p>
               </div>
               <form
@@ -39,7 +38,7 @@ export default function Contact() {
                         className="form-control style-border"
                         name="name"
                         id="name"
-                        placeholder="Full name*"
+                        placeholder="Nombre*"
                       />
                     </div>
                   </div>
@@ -51,7 +50,7 @@ export default function Contact() {
                         className="form-control style-border"
                         name="email"
                         id="email"
-                        placeholder="Email address*"
+                        placeholder="correo eléctronico*"
                       />
                     </div>
                   </div>
@@ -63,7 +62,7 @@ export default function Contact() {
                         className="form-control style-border"
                         name="website"
                         id="website"
-                        placeholder="Website link"
+                        placeholder="Cuentas con sitio web? Añadelo"
                       />
                     </div>
                   </div>
@@ -72,7 +71,7 @@ export default function Contact() {
                       <textarea
                         required
                         name="message"
-                        placeholder="How Can We Help You*"
+                        placeholder="¿En que podemos ayudar?*"
                         id="contactForm"
                         className="form-control style-border"
                       ></textarea>
@@ -82,8 +81,8 @@ export default function Contact() {
                 <div className="form-btn col-12">
                   <button type="submit" className="btn mt-20">
                     <span className="link-effect">
-                      <span className="effect-1">SEND MESSAGE</span>
-                      <span className="effect-1">SEND MESSAGE</span>
+                      <span className="effect-1">ENVIAR MENSAJE</span>
+                      <span className="effect-1">ENVIAR MENSAJE</span>
                     </span>
                   </button>
                 </div>

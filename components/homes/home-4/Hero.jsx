@@ -23,11 +23,12 @@ export default function Hero() {
             <div className="row justify-content-end">
               <div className="col-lg-6">
                 <h1 className="hero-title wow img-custom-anim-right animated">
-                  A Digital Marketing Agency
+                  SEO Local.  Impacto Global.
                 </h1>
                 <p className="hero-text wow img-custom-anim-right animated">
-                  We are digital agency that helps businesses develop immersive
-                  and engaging user experiences that drive top level growth
+                Visibilidad real, crecimiento garantizado. SEO en Barcelona y España.
+                Haz que tus clientes te encuentren fácilmente y sobresale en Google.
+                 
                 </p>
                 <div className="btn-group fade_right">
                   <Link
@@ -36,8 +37,8 @@ export default function Hero() {
                     className="btn wow img-custom-anim-right animated"
                   >
                     <span className="link-effect">
-                      <span className="effect-1">VIEW OUR WORKS</span>
-                      <span className="effect-1">VIEW OUR WORKS</span>
+                      <span className="effect-1">Por qué nosotros</span>
+                      <span className="effect-1">Casos de éxito</span>
                     </span>
                   </Link>
                 </div>
@@ -57,11 +58,11 @@ export default function Hero() {
                     alt="img"
                   />
                   <div className="hero-counter counter-item">
-                    <span className="counter-number">10</span>K
+                    <span className="counter-number">24</span>K
                   </div>
                   <p>
-                    More than <span className="counter-number">10</span>k+
-                    trusted customers
+                  Generamos más del <span className="counter-number">300% de ROI </span>
+                  a nuestros clientes.
                   </p>
                 </div>
               </div>

@@ -11,18 +11,17 @@ export default function Footer1() {
         <div className="footer-top space">
           <div className="row align-items-center justify-content-between">
             <div className="col-lg-6">
-              <h2 className="footer-top-title">Let’s Work Together</h2>
+              <h2 className="footer-top-title">Hazte Visible</h2>
             </div>
             <div className="col-lg-5">
               <div className="footer-top-wrap">
                 <p className="mb-30">
-                  We are digital agency that helps businesses develop immersive
-                  and engaging user experiences
+                Unimos fuerzas para darte el superpoder de destacar online y crecer sin límites.
                 </p>
                 <Link scroll={false} href="/contact" className="btn">
                   <span className="link-effect">
-                    <span className="effect-1">LET'S TALK WITH US</span>
-                    <span className="effect-1">LET'S TALK WITH US</span>
+                  <span className="effect-1">CONTÁCTANOS</span>
+                  <span className="effect-1">AGENDEMOS LLAMADA</span>
                   </span>
                 </Link>
               </div>
@@ -55,8 +54,8 @@ export default function Footer1() {
             <div className="col-md-6 align-self-center text-lg-end">
               <p className="copyright-text">
                 Copyright © {new Date().getFullYear()}{" "}
-                <a href="https://themeforest.net/user/ib-themes/portfolio">
-                  ib-themes
+                <a href="https://kaufast.com">
+                  KauFast
                 </a>
               </p>
             </div>

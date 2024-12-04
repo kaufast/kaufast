@@ -10,7 +10,7 @@ export default function Blogs() {
         <div className="row justify-content-center">
           <div className="col-xxl-7 col-xl-6 col-lg-8">
             <div className="title-area text-center">
-              <h2 className="sec-title">Read Our Articles and News</h2>
+              <h2 className="sec-title">Novedades y Contenido para Ti</h2>
             </div>
           </div>
         </div>
@@ -40,8 +40,8 @@ export default function Blogs() {
                   </h4>
                   <span className="link-btn">
                     <span className="link-effect">
-                      <span className="effect-1">READ MORE</span>
-                      <span className="effect-1">READ MORE</span>
+                      <span className="effect-1">Descubre Más</span>
+                      <span className="effect-1">Descubre Más</span>
                     </span>
                     <Image
                       width={13}

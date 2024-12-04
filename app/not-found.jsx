@@ -19,14 +19,14 @@ export default function NotFoundPage() {
             src="/assets/img/normal/404.png"
             alt="error"
           />
-          <h2>Look Like You’re Lost</h2>
+          <h2>¡Oops! No encontramos esta página</h2>
           <p className="sec-text mb-30">
-            The link you followed probably broken or the page has been removed
+            Es posible que el enlace que seguiste esté roto o que la página haya sido eliminada.
           </p>
           <Link scroll={false} href="/" className="link-btn">
             <span className="link-effect">
-              <span className="effect-1">back to home</span>
-              <span className="effect-1">back to home</span>
+            <span className="effect-1">Volver al inicio</span>
+            <span className="effect-1">Volver al inicio</span>
             </span>
             <Image
               width={13}

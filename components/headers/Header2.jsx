@@ -73,7 +73,7 @@ export default function Header2() {
               <Image
                 width={86}
                 height={24}
-                src="/assets/img/logo.svg"
+                src="/assets/img/kaufast-logo.svg"
                 alt="Ovation"
               />
             </Link>
@@ -84,15 +84,15 @@ export default function Header2() {
             </ul>
           </div>
           <div className="sidebar-wrap">
-            <h6>27 Division St, New York,</h6>
-            <h6>NY 10002, USA</h6>
+            <h6>C. de la Ribera 14, 08003,</h6>
+            <h6>Barcelona, España</h6>
           </div>
           <div className="sidebar-wrap">
             <h6>
               <a href="tel:1800123654987">+1 800 123 654 987 </a>
             </h6>
             <h6>
-              <a href="mailto:frisk.agency@mail.com">frisk.agency@mail.com</a>
+              <a href="mailto:kaufast@gmail.com">info@kaufast.com</a>
             </h6>
           </div>
           <div className="social-btn style3">
@@ -158,8 +158,8 @@ export default function Header2() {
                         alt="icon"
                       />
                       <span className="link-effect">
-                        <span className="effect-1">SEARCH</span>
-                        <span className="effect-1">SEARCH</span>
+                        <span className="effect-1">BUSCAR</span>
+                        <span className="effect-1">BUSCAR</span>
                       </span>
                     </button>
                   </div>

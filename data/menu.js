@@ -1,22 +1,20 @@
 export const menuItems = [
   {
     id: 1,
-    title: "HOME",
+    title: "EN",
     isActive: true,
     subMenuItems: [
-      { id: 11, label: "Digital Agency", link: "/" },
-      { id: 12, label: "Creative Agency", link: "/home-2" },
-      { id: 13, label: "Design Studio", link: "/home-3" },
-      { id: 14, label: "Digital Marketing", link: "/home-4" },
-      { id: 15, label: "Modern Agency", link: "/home-5" },
-      { id: 16, label: "Creative Studio", link: "/home-6" },
-      { id: 17, label: "Startup Agency", link: "/home-7" },
-      { id: 18, label: "Personal Portfolio", link: "/home-8" },
+      { id: 11, label: "ESPAÑOL", link: "/" },
+      { id: 12, label: "ENGLISH", link: "/home-2" },
+      { id: 13, label: "GERMAN", link: "/home-3" },
+      { id: 14, label: "PORTUGUÊS", link: "/home-4" },
+      { id: 15, label: "ITALINO", link: "/home-5" },
+      { id: 16, label: "SRBIJA", link: "/home-6" },
     ],
   },
   {
     id: 2,
-    title: "PAGES",
+    title: "SERVICIOS",
     subMenuItems: [
       { id: 21, label: "About Page", link: "/about" },
       {
@@ -43,7 +41,7 @@ export const menuItems = [
   },
   {
     id: 3,
-    title: "PORTFOLIO",
+    title: "CASOS DE ÉXITO",
     subMenuItems: [
       { id: 31, label: "Portfolio Masonary", link: "/project" },
       { id: 32, label: "Portfolio Pinterest", link: "/project-2" },
@@ -57,15 +55,11 @@ export const menuItems = [
   {
     id: 4,
     title: "BLOG",
-    subMenuItems: [
-      { id: 41, label: "Blog Standard", link: "/blog" },
-      { id: 42, label: "Blog 2 Column", link: "/blog-2" },
-      { id: 43, label: "Blog Details", link: "/blog-details/2" },
-    ],
+    link: "/blog",
   },
   {
     id: 5,
-    title: "CONTACT",
+    title: "CONTACTO",
     link: "/contact",
   },
 ];

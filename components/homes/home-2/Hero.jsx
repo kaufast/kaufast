@@ -52,12 +52,12 @@ export default function Hero() {
             <div className="col-xxl-6 col-xl-7 col-lg-9">
               <div className="wow img-custom-anim-right animated">
                 <div className="hero-contact-wrap">
-                  27 Division St, New York, NY 10002, USA
+                  C. de la Ribera 14, 08003, Barcelona, España
                 </div>
                 <div className="hero-contact-wrap">
                   <a href="tel:1800123654987">+1 800 123 654 987</a>
-                  <a href="mailto:frisk.agency@mail.com">
-                    frisk.agency@mail.com
+                  <a href="mailto:kaufast@gmail.com">
+                    info@kaufast.com
                   </a>
                 </div>
               </div>
