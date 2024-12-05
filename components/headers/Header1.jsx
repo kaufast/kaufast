@@ -75,7 +75,7 @@ export default function Header1() {
             <Link scroll={false} href="/">
               <Image
                 width={86}
-                height={24}
+                height={30}
                 src="/assets/img/kaufast-logo.svg"
                 alt="Ovation"
               />

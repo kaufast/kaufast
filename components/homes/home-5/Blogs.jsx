@@ -11,7 +11,7 @@ export default function Blogs() {
           <div className="col-xxl-7 col-xl-6 col-lg-8">
             <div className="title-area text-center">
               <h2 className="sec-title  text-smoke">
-                Novedades y Contenido para Ti
+                Read Our Articles and News
               </h2>
             </div>
           </div>
@@ -21,7 +21,7 @@ export default function Blogs() {
             <div key={i} className="col-lg-4 col-md-6">
               <div className="blog-card style3">
                 <div className="blog-img">
-                  <Link scroll={false} href={`/blog-details/${elm.id}`}>
+                  <Link scroll={false} href={`//${elm.id}`}>
                     <Image
                       width={416}
                       height={340}
@@ -36,18 +36,18 @@ export default function Blogs() {
                     <a href="#">{elm.category}</a>
                   </div>
                   <h4 className="blog-title">
-                    <Link scroll={false} href={`/blog-details/${elm.id}`}>
+                    <Link scroll={false} href={`//${elm.id}`}>
                       {elm.title}
                     </Link>
                   </h4>
                   <Link
                     scroll={false}
-                    href={`/blog-details/${elm.id}`}
+                    href={`//${elm.id}`}
                     className="link-btn"
                   >
                     <span className="link-effect">
-                      <span className="effect-1">Descubre Más</span>
-                      <span className="effect-1">Descubre Más</span>
+                      <span className="effect-1">READ MORE</span>
+                      <span className="effect-1">READ MORE</span>
                     </span>
                     <Image
                       width={13}
