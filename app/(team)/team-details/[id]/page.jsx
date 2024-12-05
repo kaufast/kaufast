@@ -15,7 +15,7 @@ import { teamData } from "@/data/team";
 // }
 
 export const metadata = {
-  title: "Team Details || Frisk - Creative Agency & Portfolio Nextjs Template",
+  title: "Team Details || KauFast - Creative Agency & Portfolio Nextjs Template",
 };
 
 export default function TeamPageDetails({ params }) {

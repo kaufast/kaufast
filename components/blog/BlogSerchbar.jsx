@@ -5,7 +5,7 @@ export default function BlogSerchbar() {
     <div className="sidebar__widget sidebar__widget-two">
       <div className="sidebar__search">
         <form onSubmit={(e) => e.preventDefault()}>
-          <input type="text" placeholder="Search . . ." />
+          <input type="text" placeholder="Buscar . . ." />
           <button type="submit">
             <svg
               xmlns="http://www.w3.org/2000/svg"

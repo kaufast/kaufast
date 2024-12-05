@@ -34,48 +34,26 @@ export default function BlogDetails({ blogId }) {
                         <a href="#">{blogItem.category}</a>
                       </li>
                       <li>
-                        <a href="#">by Ashton Porter</a>
+                        <a href="#">by {blogItem.author}</a>  {/* Update to display the author */}
                       </li>
                     </ul>
                   </div>
                   <h2 className="title">{blogItem.title}</h2>
-                  <p>
-                    BaseCreate is pleased to announce that it has been
-                    commissioned by Leighton Asia reposition its brand. We will
-                    help Leighton Asia evolve its brand strategy, and will be
-                    responsible updating Leighton Asia’s brand identity,
-                    website, and other collaterals.
-                  </p>
-                  <p>
-                    For almost 50 years Leighton Asia, one of the region’s
-                    largest and most respected construction companies, has been
-                    progressively building for a better future by leveraging
-                    international expertise with local intelligence. In that
-                    time Leighton has delivered some of Asia’s prestigious
-                    buildings and transformational infrastructure projects.
-                  </p>
-                  <blockquote>
-                    <Image
-                      width={52}
-                      height={32}
-                      className="blockquote-icon"
-                      src="/assets/img/icon/quote.svg"
-                      alt="img"
-                    />
-                    <p>
-                      “It’s a pleasure working with Bunker. They understood our
-                      brand positioning guidelines and translated them
-                      beautifully consistently into our on-going marketing
-                      comms”
-                    </p>
-                  </blockquote>
-                  <p>
-                    Leighton Asia’s brand refreshment will help position the
-                    company to meet the challenges of future, as it seeks to
-                    lead the industry in technological innovation and
-                    sustainable building practices to deliver long-lasting value
-                    for its clients.
-                  </p>
+                  {blogItem.quote && (
+                    <blockquote>
+                      <Image
+                        width={52}
+                        height={32}
+                        className="blockquote-icon"
+                        src="/assets/img/icon/quote.svg"
+                        alt="img"
+                      />
+                      <p>{blogItem.quote.text}</p>
+                    </blockquote>
+                  )}
+                  {blogItem.content.map((paragraph, index) => (
+                    <p key={index}>{paragraph}</p>
+                  ))}
                   <div className="blog__details-inner">
                     <div className="row align-items-center">
                       <div className="col-sm-6">
@@ -100,32 +78,16 @@ export default function BlogDetails({ blogId }) {
                       </div>
                     </div>
                   </div>
-                  <p>
-                    But in order that you may see whence all this born error of
-                    those who accuse pleasure and praise pain, I will open the
-                    whole matter, and explain the very things which were said by
-                    that discoverer of truth and, as it were, the architect of a
-                    happy life.
-                  </p>
-                  <p>
-                    Always ready to push the boundaries, especially when it
-                    comes to our own platform maximum analytical eye to create a
-                    site that was visually engaging and also optimised
-                  </p>
                   <div className="blog__details-bottom">
                     <div className="row align-items-center">
                       <div className="col-md-7">
                         <div className="post-tags">
                           <ul className="list-wrap">
-                            <li>
-                              <a href="#">Marketing</a>
-                            </li>
-                            <li>
-                              <a href="#">Brand</a>
-                            </li>
-                            <li>
-                              <a href="#">Contemporary</a>
-                            </li>
+                            {blogItem.tags && blogItem.tags.map((tag, i) => (
+                              <li key={i}>
+                                <a href="#">{tag}</a>
+                              </li>
+                            ))}
                           </ul>
                         </div>
                       </div>
@@ -184,13 +146,10 @@ export default function BlogDetails({ blogId }) {
                   </div>
                   <div className="blog__avatar-info">
                     <h4 className="name">
-                      <a href="#">Ashton Porter</a>
+                      <a href="#">{blogItem.author}</a>
                     </h4>
                     <p>
-                      But in order that you may see whence all this born error
-                      of those who accuse pleasure and praise pain will open the
-                      whole matter explain the very things which were said by
-                      that
+                      {blogItem.authorBio || "But in order that you may see whence all this born error of those who accuse pleasure and praise pain will open the whole matter explain the very things which were said by that"}
                     </p>
                   </div>
                 </div>

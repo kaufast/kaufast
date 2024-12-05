@@ -6,7 +6,7 @@ import Breadcumb from "@/components/portfolio/Breadcumb";
 import Projects from "@/components/portfolio/Projects";
 import React from "react";
 export const metadata = {
-  title: "Project 1 || Frisk - Creative Agency & Portfolio Nextjs Template",
+  title: "Project 1 || KauFast - Creative Agency & Portfolio Nextjs Template",
 };
 export default function ProjectPage1() {
   return (

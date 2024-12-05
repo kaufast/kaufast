@@ -1,13 +1,13 @@
 const tags = [
-  { id: 1, text: "Agency" },
-  { id: 2, text: "Awards" },
+  { id: 1, text: "Agencia" },
+  { id: 2, text: "Consultoria" },
   { id: 3, text: "Marketing" },
-  { id: 4, text: "Brand" },
-  { id: 5, text: "Contemporary" },
-  { id: 6, text: "Design" },
-  { id: 7, text: "Education" },
-  { id: 8, text: "Business" },
-  { id: 9, text: "Modern" },
+  { id: 4, text: "Diseño" },
+  { id: 5, text: "Contemporaneo" },
+  { id: 6, text: "SEO" },
+  { id: 7, text: "SEM" },
+  { id: 8, text: "Optimisación" },
+  { id: 9, text: "Moderno" },
 ];
 
 export default function Tags() {

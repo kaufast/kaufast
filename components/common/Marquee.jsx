@@ -6,26 +6,38 @@ export default function MarqueeComponent() {
     {
       id: 1,
       href: "#",
-      text: "We Give Unparalleled Flexibility",
-      icon: "fas fa-star-of-life",
+      text: "SEO para PYMEs que Funciona",
+      icon: "fas fa-chart-line",
     },
     {
       id: 2,
       href: "#",
-      text: "We Give Unparalleled Flexibility",
-      icon: "fas fa-star-of-life",
+      text: "Optimización Web Rápida y Eficaz",
+      icon: "fas fa-laptop-code",
     },
     {
       id: 3,
       href: "#",
-      text: "We Give Unparalleled Flexibility",
-      icon: "fas fa-star-of-life",
+      text: "Aumenta tu Presencia en Google",
+      icon: "fas fa-search",
     },
     {
       id: 4,
       href: "#",
-      text: "We Give Unparalleled Flexibility",
-      icon: "fas fa-star-of-life",
+      text: "Conecta con Clientes Locales",
+      icon: "fas fa-map-marker-alt",
+    },
+    {
+      id: 5,
+      href: "#",
+      text: "Diseño Web que Convierte",
+      icon: "fas fa-paint-brush",
+    },
+    {
+      id: 6,
+      href: "#",
+      text: "Auditoría SEO Gratuita",
+      icon: "fas fa-analytics",
     },
   ];
   return (

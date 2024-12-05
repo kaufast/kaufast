@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function RecentPosts() {
   return (
     <div className="sidebar__widget">
-      <h4 className="sidebar__widget-title">Recent Posts</h4>
+      <h4 className="sidebar__widget-title">Posts Recientes</h4>
       <div className="sidebar__post-list">
         {recentPosts.map((post) => (
           <div key={post.id} className="sidebar__post-item">

@@ -1,3 +1,4 @@
+//components>blog>BlogList1.jsx
 import React from "react";
 import BlogSerchbar from "./BlogSerchbar";
 import Categories from "./Categories";
@@ -8,7 +9,7 @@ import Link from "next/link";
 import Pagination from "./Pagination";
 import Image from "next/image";
 
-export default function BlogList1() {
+export default function BlogList1({ blogs }) {
   return (
     <section className="blog__area space">
       <div className="container">
@@ -53,8 +54,8 @@ export default function BlogList1() {
                             className="link-btn"
                           >
                             <span className="link-effect">
-                              <span className="effect-1">READ MORE</span>
-                              <span className="effect-1">READ MORE</span>
+                              <span className="effect-1">VER MÁS</span>
+                              <span className="effect-1">VER MÁS</span>
                             </span>
                             <Image
                               width={13}

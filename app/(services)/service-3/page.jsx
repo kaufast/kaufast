@@ -8,7 +8,7 @@ import Faq from "@/components/service/Faq";
 import React from "react";
 
 export const metadata = {
-  title: "Service 3 || Frisk - Creative Agency & Portfolio Nextjs Template",
+  title: "Service 3 || KauFast - Creative Agency & Portfolio Nextjs Template",
 };
 
 export default function ServicePage3() {
