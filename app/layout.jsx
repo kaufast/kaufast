@@ -6,8 +6,10 @@ import "../public/assets/css/vendor.css";
 import "../public/assets/sass/style.scss";
 import { ParallaxProvider } from "react-scroll-parallax";
 import ScrollTop from "@/components/common/ScrollTop";
+import CookieConsentBanner from "@/components/common/CookieConsentBanner"; // Import the Cookie Consent Component
 import { Unbounded, Poppins } from "next/font/google";
 import ScrollTopBehaviour from "@/components/common/ScrollTopBehavier";
+
 if (typeof window !== "undefined") {
   import("bootstrap/dist/js/bootstrap.esm").then((module) => {
     // Module is imported, you can access any exported functionality if
@@ -44,11 +46,13 @@ export default function RootLayout({ children }) {
   //wow?.sync();
   //}, [path]);
   return (
-    <html lang="en">
+    <html lang="es">
       <body className={`body  ${poppins.variable} ${unbounded.variable}`}>
         <ParallaxProvider>{children}</ParallaxProvider>
         <ScrollTop />
         <ScrollTopBehaviour />
+        <CookieConsentBanner /> {/* Add the Cookie Consent Banner here */}
+
       </body>
     </html>
   );

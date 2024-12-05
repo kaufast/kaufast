@@ -18,6 +18,6 @@ export const links3 = [
 export const links4 = [
   { id: 12, href: "/about", text: "Casos de Éxito" },
   { id: 13, href: "/project", text: "Terminos y Condiciones" },
-  { id: 14, href: "/service", text: "Políticas de Privacidad" },
+  { id: 14, href: "/privacy-policy", text: "Políticas de Privacidad" },
   { id: 15, href: "/contact", text: "Colaboradores y Asociados" },
 ];
