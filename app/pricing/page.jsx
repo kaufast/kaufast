@@ -8,7 +8,7 @@ import Pricing from "@/components/pricing/Pricing";
 import React from "react";
 
 export const metadata = {
-  title: "Pricing || KauFast - Creative Agency & Portfolio Nextjs Template",
+  title: "Pricing || KauFast - Agencia SEO ",
 };
 export default function PricingPage() {
   return (

@@ -6,7 +6,7 @@ import Breadcumb from "@/components/portfolio/Breadcumb";
 import Projects6 from "@/components/portfolio/Projects6";
 import React from "react";
 export const metadata = {
-  title: "Project 6 || KauFast - Creative Agency & Portfolio Nextjs Template",
+  title: "Project 6 || KauFast - Agencia SEO ",
 };
 export default function ProjectPage6() {
   return (

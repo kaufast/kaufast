@@ -21,7 +21,7 @@ export default function SearchPopup() {
         />
       </button>
       <form onSubmit={(e) => e.preventDefault()}>
-        <input type="text" placeholder="Search Here.." />
+        <input type="text" placeholder="Buscar aquí..." />
         <button type="submit">
           <Image
             width={24}

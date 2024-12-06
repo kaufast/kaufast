@@ -20,8 +20,8 @@ export default function Features2() {
                   <p className="feature-card-text">{elm.text}</p>
                   <a href={`/service-details/${elm.id}`} className="link-btn">
                     <span className="link-effect">
-                      <span className="effect-1">VIEW DETAILS</span>
-                      <span className="effect-1">VIEW DETAILS</span>
+                      <span className="effect-1">VER DETALLES</span>
+                      <span className="effect-1">VER DETALLES</span>
                     </span>
                     <Image
                       width={13}

@@ -13,8 +13,8 @@ export default function Footer4() {
               <div className="widget widget-about footer-widget">
                 <div className="footer-logo">
                   <Image
-                    width={86}
-                    height={24}
+                    width={100}
+                    height={30}
                     src="/assets/img/kaufast-logo.svg"
                     alt="logo"
                   />

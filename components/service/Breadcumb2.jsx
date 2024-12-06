@@ -9,15 +9,15 @@ export default function Breadcumb2() {
           <ul className="breadcumb-menu">
             <li>
               <Link scroll={false} href="/">
-                Home
+                KauFast
               </Link>
             </li>
             <li>
               <Link scroll={false} href="/service">
-                Services
+                Servicios
               </Link>
             </li>
-            <li>Branding Design</li>
+            <li>Diseño Web</li>
           </ul>
         </div>
       </div>

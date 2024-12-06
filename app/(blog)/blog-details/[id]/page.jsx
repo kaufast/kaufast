@@ -16,7 +16,7 @@ import { allBlogs } from "@/data/blogs";
 // }
 
 export const metadata = {
-  title: "Blog Details || Frisk - Creative Agency & Portfolio Nextjs Template",
+  title: "Blog Detailles || Kaufast - Agencia SEO ",
 };
 
 export default function BlogPageDetails({ params }) {

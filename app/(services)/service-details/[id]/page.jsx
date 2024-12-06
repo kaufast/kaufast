@@ -15,7 +15,7 @@ import { allFeatures } from "@/data/features";
 
 export const metadata = {
   title:
-    "Service Details || KauFast - Creative Agency & Portfolio Nextjs Template",
+    "Service Details || KauFast - Agencia SEO ",
 };
 
 export default function ServicePageDetails({ params }) {

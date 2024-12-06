@@ -8,7 +8,7 @@ import Header3 from "@/components/headers/Header3";
 import React from "react";
 
 export const metadata = {
-  title: "Faq || KauFast - Creative Agency & Portfolio Nextjs Template",
+  title: "Faq || KauFast - Agencia SEO ",
 };
 export default function FaqPage() {
   return (

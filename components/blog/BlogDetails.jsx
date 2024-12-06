@@ -93,7 +93,7 @@ export default function BlogDetails({ blogId }) {
                       </div>
                       <div className="col-md-5">
                         <div className="post-share">
-                          <h5 className="title">Share:</h5>
+                          <h5 className="title">Comparte:</h5>
                           <div className="social-btn style3 justify-content-md-end">
                             {socialMediaLinks.slice(0, 3).map((elm, i) => (
                               <a key={i} href={elm.href}>
@@ -117,16 +117,16 @@ export default function BlogDetails({ blogId }) {
                       <i className="fa fa-arrow-left"></i>
                       <span>
                         <span className="link-effect">
-                          <span className="effect-1">Previous Post</span>
-                          <span className="effect-1">Previous Post</span>
+                        <span className="effect-1">Post Previo</span>
+                        <span className="effect-1"> Post Previo</span>
                         </span>
                       </span>
                     </a>
                     <a href="#" className="nav-btn">
                       <span>
                         <span className="link-effect">
-                          <span className="effect-1">Next Post</span>
-                          <span className="effect-1">Next Post</span>
+                          <span className="effect-1">Post Siguiente</span>
+                          <span className="effect-1">Post Siguiente</span>
                         </span>
                       </span>
                       <i className="fa fa-arrow-right"></i>

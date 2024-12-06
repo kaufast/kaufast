@@ -62,7 +62,7 @@ export default function ProjectDetails({ portfolioId }) {
                   <span>Client:</span>Eunice Mills
                 </li>
                 <li>
-                  <span>Date:</span>October 6, 2023
+                  <span>Date:</span>October 6, 2024
                 </li>
               </ul>
             </div>
@@ -107,16 +107,16 @@ export default function ProjectDetails({ portfolioId }) {
                 <i className="fa fa-arrow-left"></i>
                 <span>
                   <span className="link-effect">
-                    <span className="effect-1">Previous Post</span>
-                    <span className="effect-1">Previous Post</span>
+                    <span className="effect-1">Post Anterior</span>
+                    <span className="effect-1">Post Anterior</span>
                   </span>
                 </span>
               </a>
               <a href="#" className="nav-btn">
                 <span>
                   <span className="link-effect">
-                    <span className="effect-1">Next Post</span>
-                    <span className="effect-1">Next Post</span>
+                    <span className="effect-1">Post Siguiente</span>
+                    <span className="effect-1">Post Siguiente</span>
                   </span>
                 </span>
                 <i className="fa fa-arrow-right"></i>

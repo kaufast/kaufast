@@ -14,7 +14,7 @@ export async function getServerSideProps() {
   };
 }
 export const metadata = {
-  title: "Blog 1 || KauFast - Creative Agency & Portfolio Nextjs Template",
+  title: "Blog 1 || KauFast - Agencia SEO ",
   description: "Discover the latest blogs about SEO, Marketing, and more.",
 
 };

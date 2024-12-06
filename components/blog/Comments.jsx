@@ -4,7 +4,7 @@ import React from "react";
 export default function Comments() {
   return (
     <div className="comments-wrap">
-      <h3 className="comments-wrap-title">02 Comments</h3>
+      <h3 className="comments-wrap-title">02 Comentarios</h3>
       <div className="latest-comments">
         <ul className="list-wrap">
           <li>
@@ -19,8 +19,8 @@ export default function Comments() {
               </div>
               <div className="comments-text">
                 <div className="avatar-name">
-                  <span className="date">March 26, 2024</span>
-                  <h6 className="name">Parker Strong</h6>
+                  <span className="date">Marzo 26, 2024</span>
+                  <h6 className="name">Mark Stephens</h6>
                 </div>
                 <p>
                   But in order that you may see whence all this born error of
@@ -29,8 +29,8 @@ export default function Comments() {
                 </p>
                 <a href="#" className="link-btn">
                   <span className="link-effect">
-                    <span className="effect-1">REPLY</span>
-                    <span className="effect-1">REPLY</span>
+                  <span className="effect-1">RESPONDER</span>
+                  <span className="effect-1">RESPONDER</span>
                   </span>
                   <Image
                     width={13}
@@ -54,8 +54,8 @@ export default function Comments() {
                   </div>
                   <div className="comments-text">
                     <div className="avatar-name">
-                      <span className="date">March 26, 2024</span>
-                      <h6 className="name">Farell Colins</h6>
+                      <span className="date">Marzo 26, 2024</span>
+                      <h6 className="name">Manuel Carvallo</h6>
                     </div>
                     <p>
                       Finanappreciate your trust greatly Our clients choose
@@ -64,8 +64,8 @@ export default function Comments() {
                     </p>
                     <a href="#" className="link-btn">
                       <span className="link-effect">
-                        <span className="effect-1">REPLY</span>
-                        <span className="effect-1">REPLY</span>
+                      <span className="effect-1">RESPONDER</span>
+                      <span className="effect-1">RESPONDER</span>
                       </span>
                       <Image
                         width={13}

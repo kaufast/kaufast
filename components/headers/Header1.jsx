@@ -74,8 +74,8 @@ export default function Header1() {
           <div className="mobile-logo">
             <Link scroll={false} href="/">
               <Image
-                width={86}
-                height={30}
+                width={120}
+                height={45}
                 src="/assets/img/kaufast-logo.svg"
                 alt="Ovation"
               />

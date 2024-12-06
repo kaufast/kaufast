@@ -10,7 +10,7 @@ import Header3 from "@/components/headers/Header3";
 import React from "react";
 
 export const metadata = {
-  title: "About || KauFast - Creative Agency & Portfolio Nextjs Template",
+  title: "About || KauFast - Agencia SEO ",
 };
 
 export default function AboutPage() {

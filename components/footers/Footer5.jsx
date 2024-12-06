@@ -34,7 +34,7 @@ export default function Footer5() {
           <div className="row justify-content-between">
             <div className="col-md-6 col-xl-5 col-lg-6">
               <div className="widget widget-about footer-widget">
-                <h3 className="widget_title">About Frisk</h3>
+                <h3 className="widget_title">About Kaufast</h3>
                 <p className="about-text">
                   If you ask our clients what it’s like working with talk how
                   much we care about their success. relationships fuel real

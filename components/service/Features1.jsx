@@ -24,8 +24,8 @@ export default function Features1() {
                   className="link-btn"
                 >
                   <span className="link-effect">
-                    <span className="effect-1">VIEW DETAILS</span>
-                    <span className="effect-1">VIEW DETAILS</span>
+                    <span className="effect-1">VER DETALLES</span>
+                    <span className="effect-1">VER DETALLES</span>
                   </span>
                   <Image
                     width={13}

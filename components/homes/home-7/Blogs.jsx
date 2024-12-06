@@ -32,11 +32,11 @@ export default function Blogs() {
                 </div>
                 <div className="blog-content">
                   <div className="post-meta-item blog-meta">
-                    <span>March 26, 2024</span>
+                    <span>Marzo 26, 2024</span>
                     <span>Branding</span>
                   </div>
                   <h4 className="blog-title">
-                    Everything You Should Know About Return
+                    Lo Que Debes Saber Sobre SEO
                   </h4>
                   <span className="link-btn">
                     <span className="link-effect">

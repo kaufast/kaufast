@@ -7,7 +7,7 @@ import ProjectDetails from "@/components/portfolio/ProjectDetails";
 import { allPortfolio } from "@/data/portfolio";
 export const metadata = {
   title:
-    "Project Details || KauFast - Creative Agency & Portfolio Nextjs Template",
+    "Project Details || KauFast - Agencia SEO ",
 };
 
 //For Static Side Genaration(SSG)

@@ -4,7 +4,7 @@ import Link from "next/link";
 import React from "react";
 
 export const metadata = {
-  title: "Not Found || KauFast - Creative Agency & Portfolio Nextjs Template",
+  title: "Not Found || KauFast - Agencia SEO ",
 };
 
 export default function NotFoundPage() {

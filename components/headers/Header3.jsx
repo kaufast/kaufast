@@ -143,10 +143,10 @@ export default function Header3() {
                 </div>
                 <div className="col-auto d-none d-lg-block">
                   <div className="header-button">
-                    <Link scroll={false} href="/project" className="btn">
+                    <Link scroll={false} href="https://calendly.com/kaufast/30min" className="btn">
                       <span className="link-effect">
                         <span className="effect-1">HABLEMOS</span>
-                        <span className="effect-1">HABLEMOS</span>
+                        <span className="effect-1">AGENDA</span>
                       </span>
                     </Link>
                   </div>

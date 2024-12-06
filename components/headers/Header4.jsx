@@ -72,8 +72,8 @@ export default function Header4() {
           <div className="mobile-logo">
             <Link scroll={false} href="/">
               <Image
-                width={86}
-                height={24}
+                width={160}
+                height={44}
                 src="/assets/img/kaufast-logo.svg"
                 alt="Ovation"
               />
@@ -111,9 +111,9 @@ export default function Header4() {
                   <div className="header-logo">
                     <Link scroll={false} href="/">
                       <Image
-                        width={86}
-                        height={24}
-                        src="/assets/img/logo-white-sm.svg"
+                        width={120}
+                        height={36}
+                        src="/assets/img/kaufast-white.svg"
                         alt="logo"
                       />
                     </Link>

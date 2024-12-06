@@ -31,7 +31,7 @@ export default function Video() {
                   onClick={() => setIsOpen(true)}
                   className="play-btn circle-btn btn gsap-magnetic popup-video background-image"
                 >
-                  PLAY VIDEO
+                  VIDEO
                 </div>
               </div>
             </div>

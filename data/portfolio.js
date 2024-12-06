@@ -117,7 +117,7 @@ export const portfolioData3 = [
   },
   {
     id: 17,
-    year: "2023",
+    year: "2024",
     img: "/assets/img/award/award-1-5.png",
     title: "SEO para Contenido de Calidad",
     categories: ["SEO", "Content"],

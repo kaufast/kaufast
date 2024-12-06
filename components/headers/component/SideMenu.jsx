@@ -29,16 +29,15 @@ export default function SideMenu({ isOpen, setIsOpen }) {
             <div className="footer-logo">
               <Link scroll={false} href="/">
                 <Image
-                  width={86}
-                  height={24}
-                  src="/assets/img/logo-white.svg"
+                  width={200}
+                  height={50}
+                  src="/assets/img/kaufast-white.svg"
                   alt="Ovation"
                 />
               </Link>
             </div>
             <p className="about-text">
-              We are digital agency that helps businesses develop immersive and
-              engaging
+              Somos una agencia digital que impulsa la visibilidad en buscadores, conectandote con tu audiencia.
             </p>
             <div className="sidebar-wrap">
               <h6>C. de la Ribera 14, 08003,</h6>
@@ -63,7 +62,7 @@ export default function SideMenu({ isOpen, setIsOpen }) {
             href="/contact"
             className="chat-btn gsap-magnetic"
           >
-            Let’s Talk with us
+            ¡Conectemos ahora!
           </Link>
         </div>
       </div>

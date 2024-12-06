@@ -17,7 +17,7 @@ export default function Breadcumb2() {
                 Blog
               </Link>
             </li>
-            <li>Everything You Should Know About Return</li>
+            <li>Lo Que Debes Saber Sobre SEO</li>
           </ul>
         </div>
       </div>

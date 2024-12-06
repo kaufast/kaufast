@@ -8,7 +8,7 @@ import Hero from "@/components/homes/home-4/Hero";
 import Portfolio from "@/components/homes/home-1/Portfolio";
 import Testimonials from "@/components/homes/common/Testimonials";
 export const metadata = {
-  title: "Home 1 || KauFast - Creative Agency & Portfolio Nextjs Template",
+  title: "Home 1 || KauFast - Agencia SEO ",
 };
 export default function HomePage1() {
   return (

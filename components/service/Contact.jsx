@@ -20,11 +20,11 @@ export default function Contact() {
           <div className="col-lg-6">
             <div className="contact-form-wrap">
               <div className="title-area mb-30">
-                <h2 className="sec-title">Have Any Project on Your Mind?</h2>
-                <p>
-                  Great! We're excited to hear from you and let's start
-                  something
-                </p>
+              <h2 className="sec-title">¿Quieres dar vida a tu proyecto?</h2>
+                  <p>
+                    En KauFast, estamos listos para ayudarte a destacar en el mundo digital. ¡Hablemos!
+                  </p>
+
               </div>
               <form
                 onSubmit={(e) => e.preventDefault()}
@@ -82,8 +82,8 @@ export default function Contact() {
                 <div className="form-btn col-12">
                   <button type="submit" className="btn mt-20">
                     <span className="link-effect">
-                      <span className="effect-1">SEND MESSAGE</span>
-                      <span className="effect-1">SEND MESSAGE</span>
+                      <span className="effect-1">ENVIAR MENSAJE</span>
+                      <span className="effect-1">SENVIAR MENSAJE</span>
                     </span>
                   </button>
                 </div>

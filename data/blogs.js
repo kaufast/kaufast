@@ -3,9 +3,9 @@ export const blogs = [
   {
     id: 1,
     image: "/assets/img/blog/blog_1_1.png",
-    date: "March 26, 2024",
+    date: "Marzo 26, 2024",
     category: "SEO",
-    author: "John Doe",
+    author: "Sofia Bergström",
     title: "Cómo posicionar tu negocio en Google sin complicaciones",
     icon: "/assets/img/icon/arrow-left-top.svg",
     content: [
@@ -22,9 +22,9 @@ export const blogs = [
   {
     id: 2,
     image: "/assets/img/blog/blog_1_2.png",
-    date: "March 26, 2024",
+    date: "Marzo 26, 2024",
     category: "SEO",
-    author: "J2",
+    author: "Miguel Silva",
     title: "5 maneras fáciles de aumentar tu ROI con SEO",
     icon: "/assets/img/icon/arrow-left-top.svg",
     content: [
@@ -42,9 +42,9 @@ export const blogs = [
   {
     id: 3,
     image: "/assets/img/blog/blog_1_3.png",
-    date: "March 26, 2024",
+    date: "Marzo 26, 2024",
     category: "SEO",
-    author: "J£",
+    author: "Martha Nowak",
     title: "SEO para principiantes: Lo esencial que debes saber",
     icon: "/assets/img/icon/arrow-left-top.svg",
     content: [
@@ -61,9 +61,9 @@ export const blogs = [
   {
     id: 4,
     image: "/assets/img/blog/blog_post1_4.png",
-    date: "March 26, 2024",
+    date: "Marzo 26, 2024",
     category: "SEO",
-    author: "J4",
+    author: "Sofia Bergström",
     title: "Por qué un buen contenido mejora tu posición en Google",
     icon: "/assets/img/icon/arrow-left-top.svg",
     content: [
@@ -83,9 +83,9 @@ export const blogs3 = [
   {
     id: 5,
     image: "/assets/img/blog/blog_post1_1.png",
-    date: "March 26, 2024",
+    date: "Marzo 26, 2024",
     category: "SEO",
-    author: "J5",
+    author: "Miguel Silva",
     title: "Cómo atraer clientes locales con SEO",
     icon: "/assets/img/icon/arrow-left-top.svg",
     content: [
@@ -102,9 +102,9 @@ export const blogs3 = [
   {
     id: 6,
     image: "/assets/img/blog/blog_post1_2.png",
-    date: "March 26, 2024",
+    date: "Marzo 26, 2024",
     title: "Optimiza tu negocio para búsquedas cercanas",
-    author: "J6",
+    author: "Isabelle Dubois",
     icon: "/assets/img/icon/arrow-left-top.svg",
     content: [
       "Las búsquedas cercanas o 'cerca de mí' se han vuelto cada vez más populares. Optimizar tu sitio web para aparecer en estas búsquedas puede marcar la diferencia en la captación de clientes.",
@@ -120,9 +120,9 @@ export const blogs3 = [
   {
     id: 7,
     image: "/assets/img/blog/blog_post1_3.png",
-    date: "March 26, 2024",
+    date: "Marzo 26, 2024",
     category: "SEO",
-    author: "J7",
+    author: "Martha Nowak",
     title: "¿Por qué la velocidad de tu sitio afecta el SEO?",
     icon: "/assets/img/icon/arrow-left-top.svg",
     content: [
@@ -139,9 +139,9 @@ export const blogs3 = [
   {
     id: 8,
     image: "/assets/img/blog/blog_post1_4.png",
-    date: "March 26, 2024",
+    date: "Marzo 26, 2024",
     category: "SEO",
-    author: "J8",
+    author: "Sofia Bergström",
     title: "Convierte más visitas en clientes con estas estrategias SEO",
     icon: "/assets/img/icon/arrow-left-top.svg",
     content: [
@@ -158,9 +158,9 @@ export const blogs3 = [
   {
     id: 9,
     image: "/assets/img/blog/blog_post1_5.png",
-    date: "March 26, 2024",
+    date: "Marzo 26, 2024",
     category: "SEO",
-    author: "J9",
+    author: "Miguel Silva",
     title: "¿Cómo medir el éxito de tu estrategia SEO?",
     icon: "/assets/img/icon/arrow-left-top.svg",
     content: [
@@ -177,9 +177,9 @@ export const blogs3 = [
   {
     id: 10,
     image: "/assets/img/blog/blog_post1_6.png",
-    date: "March 26, 2024",
+    date: "Marzo 26, 2024",
     category: "SEO",
-    author: "J10",
+    author: "Martha Nowak",
     title: "Las palabras clave que tu negocio necesita",
     icon: "/assets/img/icon/arrow-left-top.svg",
     content: [
@@ -198,9 +198,9 @@ export const blogs2 = [
   {
     id: 11,
     image: "/assets/img/blog/blog_2_1.png",
-    date: "March 26, 2024",
+    date: "Marzo 26, 2024",
     category: "SEO",
-    author: "Ana López",
+    author: "Isabelle Dubois",
     title: "SEO para pequeñas empresas: Guía práctica para comenzar hoy",
     icon: "/assets/img/icon/arrow-left-top.svg",
     content: [
@@ -217,9 +217,9 @@ export const blogs2 = [
   {
     id: 12,
     image: "/assets/img/blog/blog_2_2.png",
-    date: "March 26, 2024",
+    date: "Marzo 26, 2024",
     category: "SEO",
-    author: "Carlos García",
+    author: "Sofia Bergström",
     title: "SEO vs. Anuncios Pagados: ¿Cuál estrategia te conviene más?",
     icon: "/assets/img/icon/arrow-left-top.svg",
     content: [
@@ -236,9 +236,9 @@ export const blogs2 = [
   {
     id: 13,
     image: "/assets/img/blog/blog_2_3.png",
-    date: "March 26, 2024",
+    date: "Marzo 26, 2024",
     category: "SEO",
-    author: "Lucía Fernández",
+    author: "Martha Nowak",
     title: "3 Mitos del SEO que Están Frenando el Crecimiento de tu Negocio",
     icon: "/assets/img/icon/arrow-left-top.svg",
     content: [
@@ -259,7 +259,7 @@ export const recentPosts = [
     id: 14,
     smallImageUrl: "/assets/img/blog/sb_post01.jpg",
     image: "/assets/img/blog/blog_post1_2.png",
-    author: "Pedro Martínez",
+    author: "Isabelle Dubois",
     title: "¿Qué es el SEO y Cómo Puede Hacer Crecer Tu Negocio Local?",
     category: "SEO",
     date: "Sep 15, 2024",
@@ -278,7 +278,7 @@ export const recentPosts = [
     id: 15,
     smallImageUrl: "/assets/img/blog/sb_post02.jpg",
     image: "/assets/img/blog/blog_post1_4.png",
-    author: "María Ramírez",
+    author: "Martha Nowak",
     title: "5 Estrategias para Destacar en los Resultados de Google",
     category: "SEO",
     date: "Sep 15, 2024",
@@ -297,7 +297,7 @@ export const recentPosts = [
     id: 16,
     smallImageUrl: "/assets/img/blog/sb_post03.jpg",
     image: "/assets/img/blog/blog_post1_3.png",
-    author: "Sergio Jiménez",
+    author: "Sofia Bergström",
     title: "SEO Local: Estrategias para Atraer Clientes Cercanos",
     category: "SEO",
     date: "Sep 15, 2024",
