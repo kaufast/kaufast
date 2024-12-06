@@ -26,26 +26,17 @@ export default function ServiceDetails({ serviceId }) {
             <div className="title-area mb-35">
               <h2 className="sec-title">{serviceItem.title}</h2>
               <p className="sec-text mt-30">
-                BaseCreate is pleased to announce that it has been commissioned
-                by Leighton Asia reposition its brand. We will help Leighton
-                Asia evolve its brand strategy, and will be responsible updating
-                Leighton Asia’s brand identity, website, and other collaterals.
+              En Kaufast, contamos con más de 20 años de experiencia en diseño web y 14 años en estrategias SEO. Ayudamos a empresas a destacar en el competitivo mundo digital con soluciones personalizadas y efectivas.
+
               </p>
               <p className="sec-text mt-30">
-                For almost 50 years Leighton Asia, one of the region’s largest
-                and most respected construction companies, has been
-                progressively building for a better future by leveraging
-                international expertise with local intelligence. In that time
-                Leighton has delivered some of Asia’s prestigious buildings and
-                transformational infrastructure projects.
+              Hemos trabajado con una amplia variedad de industrias, brindando estrategias adaptadas a cada negocio. Nuestro enfoque combina creatividad e innovación con análisis para lograr resultados que importan.
               </p>
             </div>
-            <h3>Remarking Services</h3>
+            <h3>Nuestros Servicios</h3>
             <p className="sec-text mb-n1">
-              Leighton Asia’s brand refreshment will help position the company
-              to meet the challenges of future, as it seeks to lead the industry
-              in technological innovation and sustainable building practices to
-              deliver long-lasting value for its clients.
+            En Kaufast, cada proyecto es único. Ofrecemos servicios que van desde SEO local e internacional hasta desarrollo web y marketing digital, siempre enfocados en maximizar tu retorno de inversión.
+
             </p>
           </div>
           <div className="col-lg-12">
@@ -67,25 +58,15 @@ export default function ServiceDetails({ serviceId }) {
           </div>
           <div className="col-xl-8">
             <p className="sec-text mt-n1 mb-40">
-              Leighton Asia’s brand refreshment will help position the company
-              to meet the challenges of future, as it seeks to lead the industry
-              in technological innovation and sustainable building practices to
-              deliver long-lasting value for its clients.
+            Nuestro objetivo es ayudar a tu negocio a crecer y adaptarse a los desafíos digitales actuales y futuros. Creemos que las relaciones sólidas son la base para el éxito mutuo.
+
             </p>
-            <h3>Making for Users Friendly</h3>
+            <h3>Soluciones Personalizadas</h3>
             <p className="sec-text mt-30">
-              Leighton Asia’s brand refreshment will help position the company
-              to meet the challenges of future, as it seeks to lead the industry
-              in technological innovation and sustainable building practices to
-              deliver long-lasting value for its clients.
+            Diseñamos soluciones hechas a medida para tus necesidades específicas. Desde la creación de sitios web impactantes hasta estrategias SEO de alto nivel, hacemos que cada proyecto cuente.
             </p>
             <p className="sec-text mb-40 mt-30">
-              For almost 50 years Leighton Asia, one of the region’s largest and
-              most respected construction companies, has been progressively
-              building for a better future by leveraging international expertise
-              with local intelligence. In that time Leighton has delivered some
-              of Asia’s prestigious buildings and transformational
-              infrastructure projects.
+            A lo largo de los años, hemos transformado la presencia digital de cientos de empresas. Nuestro enfoque combina herramientas avanzadas y un equipo apasionado por ofrecer los mejores resultados.
             </p>
             <div className="row gy-4">
               <div className="col-md-6">
@@ -100,11 +81,11 @@ export default function ServiceDetails({ serviceId }) {
                   </div>
                   <h4 className="feature-card-title">
                     <Link scroll={false} href="/project">
-                      Custom Solution
+                    Estrategias Integrales
                     </Link>
                   </h4>
                   <p className="feature-card-text mb-n2">
-                    We care success relationships fuel success we love building
+                  Creamos estrategias que combinan análisis y creatividad para impulsar tu negocio.
                   </p>
                 </div>
               </div>
@@ -120,20 +101,18 @@ export default function ServiceDetails({ serviceId }) {
                   </div>
                   <h4 className="feature-card-title">
                     <Link scroll={false} href="/project">
-                      In-time Result
+                    Resultados Tangibles
                     </Link>
                   </h4>
                   <p className="feature-card-text mb-n2">
-                    We care success relationships fuel success we love building
+                  Generamos resultados medibles para garantizar el éxito de tus proyectos digitales.
                   </p>
                 </div>
               </div>
             </div>
             <p className="sec-text mb-n1 mt-40">
-              Leighton Asia’s brand refreshment will help position the company
-              to meet the challenges of future, as it seeks to lead the industry
-              in technological innovation and sustainable building practices to
-              deliver long-lasting value for its clients.
+            En Kaufast, te brindamos las herramientas y estrategias necesarias para destacar en el mundo digital. Tu éxito es nuestro éxito, y creemos en construir alianzas basadas en confianza y resultados. Juntos, podemos transformar tu presencia online en un motor de crecimiento para tu negocio.
+
             </p>
           </div>
         </div>

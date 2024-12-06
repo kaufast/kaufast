@@ -4,7 +4,7 @@ export const menuItems = [
     id: 1,
     title: "¿POR QUÉ KAUFAST?",
     subMenuItems: [
-      { id: 21, label: "About Page", link: "/about" },
+      { id: 21, label: "Agencia KauFast", link: "/about" },
       { id: 22, label: "Servicios", link:"/service"},
       { id: 26, label: "Preguntas Frequentes - FAQ ", link: "/faq" },
     ],

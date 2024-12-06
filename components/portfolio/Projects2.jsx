@@ -36,8 +36,8 @@ export default function Projects2() {
         <div className="btn-wrap justify-content-center mt-60">
           <Link scroll={false} className="btn" href={`/project`}>
             <span className="link-effect">
-              <span className="effect-1">LOAD MORE</span>
-              <span className="effect-1">LOAD MORE</span>
+              <span className="effect-1">SIGUIENTES</span>
+              <span className="effect-1">SIGUIENTES</span>
             </span>
           </Link>
         </div>

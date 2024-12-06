@@ -8,7 +8,7 @@ export default function Breadcumb() {
     >
       <div className="container">
         <div className="breadcumb-content">
-          <h1 className="breadcumb-title">Portfolio</h1>
+          <h1 className="breadcumb-title">Casos de Éxito</h1>
         </div>
       </div>
     </div>
