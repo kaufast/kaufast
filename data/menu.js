@@ -12,7 +12,7 @@ export const menuItems = [
   {
     id: 2,
     title: "CASOS DE ÉXITO",
-    link: "/project-2"
+    link: "/project"
   },
   {
     id: 3,

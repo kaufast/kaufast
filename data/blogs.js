@@ -2,6 +2,7 @@
 export const blogs = [
   {
     id: 1,
+    slug: "como-posicionar-tu-negocio-en-google-sin-complicaciones",
     image: "/assets/img/blog/blog_1_1.png",
     date: "Marzo 26, 2024",
     category: "SEO",
@@ -21,6 +22,7 @@ export const blogs = [
   },
   {
     id: 2,
+    slug: "5-maneras-faciles-de-aumentar-tu-roi-con-seo",
     image: "/assets/img/blog/blog_1_2.png",
     date: "Marzo 26, 2024",
     category: "SEO",
@@ -41,6 +43,7 @@ export const blogs = [
   },
   {
     id: 3,
+    slug: "seo-para-principiantes-lo-esencial-que-debes-saber",
     image: "/assets/img/blog/blog_1_3.png",
     date: "Marzo 26, 2024",
     category: "SEO",
@@ -60,6 +63,7 @@ export const blogs = [
   },
   {
     id: 4,
+    slug: "por-que-un-buen-contenido-mejora-tu-posicion-en-google",
     image: "/assets/img/blog/blog_post1_4.png",
     date: "Marzo 26, 2024",
     category: "SEO",
@@ -82,6 +86,7 @@ export const blogs = [
 export const blogs3 = [
   {
     id: 5,
+    slug: "como-atraer-clientes-locales-con-seo",
     image: "/assets/img/blog/blog_post1_1.png",
     date: "Marzo 26, 2024",
     category: "SEO",
@@ -101,6 +106,7 @@ export const blogs3 = [
   },
   {
     id: 6,
+    slug: "optimiza-tu-negocio-para-busquedas-cercanas",
     image: "/assets/img/blog/blog_post1_2.png",
     date: "Marzo 26, 2024",
     title: "Optimiza tu negocio para búsquedas cercanas",
@@ -119,6 +125,7 @@ export const blogs3 = [
   },
   {
     id: 7,
+    slug: "por-que-la-velocidad-de-tu-sitio-afecta-el-seo",
     image: "/assets/img/blog/blog_post1_3.png",
     date: "Marzo 26, 2024",
     category: "SEO",
@@ -138,6 +145,7 @@ export const blogs3 = [
   },
   {
     id: 8,
+    slug: "convierte-mas-visitas-en-clientes-con-estas-estrategias-seo",
     image: "/assets/img/blog/blog_post1_4.png",
     date: "Marzo 26, 2024",
     category: "SEO",
@@ -157,6 +165,7 @@ export const blogs3 = [
   },
   {
     id: 9,
+    slug: "como-medir-el-exito-de-tu-estrategia-seo",
     image: "/assets/img/blog/blog_post1_5.png",
     date: "Marzo 26, 2024",
     category: "SEO",
@@ -176,6 +185,7 @@ export const blogs3 = [
   },
   {
     id: 10,
+    slug: "las-palabras-clave-que-tu-negocio-necesita",
     image: "/assets/img/blog/blog_post1_6.png",
     date: "Marzo 26, 2024",
     category: "SEO",
@@ -197,6 +207,7 @@ export const blogs3 = [
 export const blogs2 = [
   {
     id: 11,
+    slug: "seo-para-pequenas-empresas-guia-practica-para-comenzar-hoy",
     image: "/assets/img/blog/blog_2_1.png",
     date: "Marzo 26, 2024",
     category: "SEO",
@@ -216,6 +227,7 @@ export const blogs2 = [
   },
   {
     id: 12,
+    slug: "seo-vs-anuncios-pagados-cual-estrategia-te-conviene-mas",
     image: "/assets/img/blog/blog_2_2.png",
     date: "Marzo 26, 2024",
     category: "SEO",
@@ -235,6 +247,7 @@ export const blogs2 = [
   },
   {
     id: 13,
+    slug: "3-mitos-del-seo-que-estan-frenando-el-crecimiento-de-tu-negocio",
     image: "/assets/img/blog/blog_2_3.png",
     date: "Marzo 26, 2024",
     category: "SEO",
@@ -257,6 +270,7 @@ export const blogs2 = [
 export const recentPosts = [
   {
     id: 14,
+    slug: "que-es-el-seo-y-como-puede-hacer-crecer-tu-negocio-local",
     smallImageUrl: "/assets/img/blog/sb_post01.jpg",
     image: "/assets/img/blog/blog_post1_2.png",
     author: "Isabelle Dubois",
@@ -276,6 +290,7 @@ export const recentPosts = [
   },
   {
     id: 15,
+    slug: "5-estrategias-para-destacar-en-los-resultados-de-google",
     smallImageUrl: "/assets/img/blog/sb_post02.jpg",
     image: "/assets/img/blog/blog_post1_4.png",
     author: "Martha Nowak",
@@ -295,6 +310,7 @@ export const recentPosts = [
   },
   {
     id: 16,
+    slug: "seo-local-estrategias-para-atraer-clientes-cercanos",
     smallImageUrl: "/assets/img/blog/sb_post03.jpg",
     image: "/assets/img/blog/blog_post1_3.png",
     author: "Sofia Bergström",

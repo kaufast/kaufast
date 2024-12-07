@@ -9,8 +9,10 @@ import Tags from "./Tags";
 import Image from "next/image";
 import { allBlogs } from "@/data/blogs";
 
-export default function BlogDetails({ blogId }) {
-  const blogItem = allBlogs.filter((elm) => elm.id == blogId)[0] || allBlogs[0];
+export default function BlogDetails({ blogSlug }) {
+  // Find the blog post using the slug
+  const blogItem = allBlogs.find((elm) => elm.slug === blogSlug) || allBlogs[0];
+
   return (
     <section className="blog__details-area space">
       <div className="container">
@@ -23,7 +25,7 @@ export default function BlogDetails({ blogId }) {
                     width={856}
                     height={600}
                     src={blogItem.image}
-                    alt="img"
+                    alt={blogItem.title}
                   />
                 </div>
                 <div className="blog__details-content">
@@ -34,7 +36,7 @@ export default function BlogDetails({ blogId }) {
                         <a href="#">{blogItem.category}</a>
                       </li>
                       <li>
-                        <a href="#">by {blogItem.author}</a>  {/* Update to display the author */}
+                        <a href="#">by {blogItem.author}</a>
                       </li>
                     </ul>
                   </div>
@@ -46,7 +48,7 @@ export default function BlogDetails({ blogId }) {
                         height={32}
                         className="blockquote-icon"
                         src="/assets/img/icon/quote.svg"
-                        alt="img"
+                        alt="quote icon"
                       />
                       <p>{blogItem.quote.text}</p>
                     </blockquote>
@@ -62,7 +64,7 @@ export default function BlogDetails({ blogId }) {
                             width={416}
                             height={380}
                             src="/assets/img/blog/blog_details02.jpg"
-                            alt="blog single"
+                            alt="blog detail"
                           />
                         </div>
                       </div>
@@ -72,7 +74,7 @@ export default function BlogDetails({ blogId }) {
                             width={416}
                             height={380}
                             src="/assets/img/blog/blog_details03.jpg"
-                            alt="img"
+                            alt="blog detail"
                           />
                         </div>
                       </div>
@@ -83,11 +85,12 @@ export default function BlogDetails({ blogId }) {
                       <div className="col-md-7">
                         <div className="post-tags">
                           <ul className="list-wrap">
-                            {blogItem.tags && blogItem.tags.map((tag, i) => (
-                              <li key={i}>
-                                <a href="#">{tag}</a>
-                              </li>
-                            ))}
+                            {blogItem.tags &&
+                              blogItem.tags.map((tag, i) => (
+                                <li key={i}>
+                                  <a href="#">{tag}</a>
+                                </li>
+                              ))}
                           </ul>
                         </div>
                       </div>
@@ -117,8 +120,8 @@ export default function BlogDetails({ blogId }) {
                       <i className="fa fa-arrow-left"></i>
                       <span>
                         <span className="link-effect">
-                        <span className="effect-1">Post Previo</span>
-                        <span className="effect-1"> Post Previo</span>
+                          <span className="effect-1">Post Previo</span>
+                          <span className="effect-1">Post Previo</span>
                         </span>
                       </span>
                     </a>
@@ -140,7 +143,7 @@ export default function BlogDetails({ blogId }) {
                         width={196}
                         height={180}
                         src="/assets/img/blog/blog_avatar01.png"
-                        alt="img"
+                        alt="author avatar"
                       />
                     </a>
                   </div>
@@ -149,7 +152,8 @@ export default function BlogDetails({ blogId }) {
                       <a href="#">{blogItem.author}</a>
                     </h4>
                     <p>
-                      {blogItem.authorBio || "But in order that you may see whence all this born error of those who accuse pleasure and praise pain will open the whole matter explain the very things which were said by that"}
+                      {blogItem.authorBio ||
+                        "Default author bio: providing great content and insights."}
                     </p>
                   </div>
                 </div>

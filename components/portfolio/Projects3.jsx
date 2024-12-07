@@ -40,7 +40,7 @@ export default function Projects3() {
           ))}
         </div>
         <div className="btn-wrap justify-content-center mt-60">
-          <Link scroll={false} className="btn" href="/project-2">
+          <Link scroll={false} className="btn" href="/project">
             <span className="link-effect">
               <span className="effect-1">SIGUIENTES</span>
               <span className="effect-1">SIGUIENTES</span>

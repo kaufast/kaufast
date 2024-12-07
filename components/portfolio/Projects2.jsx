@@ -12,7 +12,7 @@ export default function Projects2() {
             <div key={i} className={elm.parentClass}>
               <Link
                 scroll={false}
-                href={`/project-details/${elm.id}`}
+                href={`/project-details/${elm.slug}`}
                 className="portfolio-wrap style3"
               >
                 <div className="portfolio-thumb">

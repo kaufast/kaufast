@@ -10,18 +10,20 @@ export default function RecentPosts() {
         {recentPosts.map((post) => (
           <div key={post.id} className="sidebar__post-item">
             <div className="sidebar__post-thumb">
-              <Link scroll={false} href={`/blog-details/${post.id}`}>
+              {/* Updated to use slug */}
+              <Link scroll={false} href={`/blog-details/${post.slug}`}>
                 <Image
                   width={80}
                   height={76}
                   src={post.smallImageUrl}
-                  alt="img"
+                  alt={post.title}
                 />
               </Link>
             </div>
             <div className="sidebar__post-content">
               <h5 className="title">
-                <Link scroll={false} href={`/blog-details/${post.id}`}>
+                {/* Updated to use slug */}
+                <Link scroll={false} href={`/blog-details/${post.slug}`}>
                   {post.title}
                 </Link>
               </h5>

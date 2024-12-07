@@ -35,7 +35,7 @@ export default function Portfolio() {
                             scroll={false}
                             href={`/project-details/${elm.id}`}
                           >
-                            Decentralized Lending Platform for Students
+                            Sigma Clinica Dental Proyecto
                           </Link>
                         </h3>
                       </div>

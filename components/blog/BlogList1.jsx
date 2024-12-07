@@ -1,15 +1,14 @@
-//components>blog>BlogList1.jsx
+import { blogs3 } from "@/data/blogs";
+import Link from "next/link";
 import React from "react";
+import Pagination from "./Pagination";
 import BlogSerchbar from "./BlogSerchbar";
 import Categories from "./Categories";
 import RecentPosts from "./RecentPosts";
 import Tags from "./Tags";
-import { blogs3 } from "@/data/blogs";
-import Link from "next/link";
-import Pagination from "./Pagination";
 import Image from "next/image";
 
-export default function BlogList1({ blogs }) {
+export default function BlogList2() {
   return (
     <section className="blog__area space">
       <div className="container">
@@ -17,17 +16,18 @@ export default function BlogList1({ blogs }) {
           <div className="row">
             <div className="col-70">
               <div className="blog-post-wrap">
-                <div className="row gy-50 gutter-24">
-                  {blogs3.slice(0, 4).map((elm, i) => (
-                    <div key={i} className="col-md-12">
-                      <div className="blog-post-item">
+                <div className="row gy-30 gutter-24">
+                  {blogs3.map((elm, i) => (
+                    <div key={i} className="col-md-6">
+                      <div className="blog-post-item-two">
                         <div className="blog-post-thumb">
-                          <Link scroll={false} href={`/blog-details/${elm.id}`}>
+                          {/* Updated to use slug */}
+                          <Link scroll={false} href={`/blog-details/${elm.slug}`}>
                             <Image
                               width={856}
                               height={600}
                               src={elm.image}
-                              alt="img"
+                              alt={elm.title}
                             />
                           </Link>
                         </div>
@@ -40,17 +40,16 @@ export default function BlogList1({ blogs }) {
                               </li>
                             </ul>
                           </div>
-                          <h2 className="title">
-                            <Link
-                              scroll={false}
-                              href={`/blog-details/${elm.id}`}
-                            >
+                          <h4 className="title">
+                            {/* Updated to use slug */}
+                            <Link scroll={false} href={`/blog-details/${elm.slug}`}>
                               {elm.title}
                             </Link>
-                          </h2>
+                          </h4>
+                          {/* Updated to use slug */}
                           <Link
                             scroll={false}
-                            href={`/blog-details/${elm.id}`}
+                            href={`/blog-details/${elm.slug}`}
                             className="link-btn"
                           >
                             <span className="link-effect">

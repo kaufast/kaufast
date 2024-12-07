@@ -21,12 +21,13 @@ export default function BlogList2() {
                     <div key={i} className="col-md-6">
                       <div className="blog-post-item-two">
                         <div className="blog-post-thumb">
-                          <Link scroll={false} href={`/blog-details/${elm.id}`}>
+                          {/* Updated to use slug */}
+                          <Link scroll={false} href={`/blog-details/${elm.slug}`}>
                             <Image
                               width={856}
                               height={600}
                               src={elm.image}
-                              alt="img"
+                              alt={elm.title}
                             />
                           </Link>
                         </div>
@@ -40,16 +41,15 @@ export default function BlogList2() {
                             </ul>
                           </div>
                           <h4 className="title">
-                            <Link
-                              scroll={false}
-                              href={`/blog-details/${elm.id}`}
-                            >
+                            {/* Updated to use slug */}
+                            <Link scroll={false} href={`/blog-details/${elm.slug}`}>
                               {elm.title}
                             </Link>
                           </h4>
+                          {/* Updated to use slug */}
                           <Link
                             scroll={false}
-                            href={`/blog-details/${elm.id}`}
+                            href={`/blog-details/${elm.slug}`}
                             className="link-btn"
                           >
                             <span className="link-effect">

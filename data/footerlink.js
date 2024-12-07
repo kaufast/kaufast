@@ -13,7 +13,7 @@ export const links3 = [
   { id: 8, href: "/project", text: "Casos de Éxito" },
   { id: 9, href: "/service", text: "Servicios Agencia" },
   { id: 10, href: "/contact", text: "Opiniones Clientes" },
-  { id: 11, href: "/project-2", text: "Bolsa de Trabajo" },
+  { id: 11, href: "/project", text: "Bolsa de Trabajo" },
 ];
 export const links4 = [
   { id: 12, href: "/about", text: "Casos de Éxito" },

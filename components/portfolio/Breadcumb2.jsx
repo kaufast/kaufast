@@ -17,7 +17,9 @@ export default function Breadcumb2() {
                 Porfolio
               </Link>
             </li>
-            <li>Decentralized Platform</li>
+            <li>                            
+              Proyectos KauFast SEO & Web
+            </li>
           </ul>
         </div>
       </div>

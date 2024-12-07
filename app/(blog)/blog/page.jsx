@@ -1,4 +1,4 @@
-// app<(blog)>blog>page.jsx
+// app<(blog)>blog>[id]>page.jsx
 import BlogList1 from "@/components/blog/BlogList1";
 import Breadcumb from "@/components/blog/Breadcumb";
 import MarqueeComponent from "@/components/common/Marquee";

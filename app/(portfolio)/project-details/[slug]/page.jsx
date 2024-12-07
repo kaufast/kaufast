@@ -2,19 +2,17 @@ import MarqueeComponent from "@/components/common/Marquee";
 import Footer8 from "@/components/footers/Footer8";
 import Header3 from "@/components/headers/Header3";
 import Breadcumb2 from "@/components/portfolio/Breadcumb2";
-
 import ProjectDetails from "@/components/portfolio/ProjectDetails";
 import { allPortfolio } from "@/data/portfolio";
+
 export const metadata = {
-  title:
-    "Project Details || KauFast - Agencia SEO ",
+  title: "Project Details || KauFast - Agencia SEO ",
 };
 
-//For Static Side Genaration(SSG)
-
+// For Static Site Generation (SSG) with slugs
 // export async function generateStaticParams() {
 //   return allPortfolio.map((elm) => ({
-//     id: `${elm.id}`,
+//     slug: elm.slug,
 //   }));
 // }
 
@@ -23,7 +21,7 @@ export default function ProjectPageDetails({ params }) {
     <>
       <Header3 />
       <Breadcumb2 />
-      <ProjectDetails portfolioId={params.id} />
+      <ProjectDetails portfolioSlug={params.slug} />
       <MarqueeComponent />
       <Footer8 />
     </>
