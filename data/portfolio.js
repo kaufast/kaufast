@@ -2,7 +2,7 @@ export const portfolioData = [
   {
     id: 1,
     slug: "como-mejorar-tu-ranking-en-google",
-    imageSrc: "/assets/img/portfolio/portfolio1_1.jpg",
+    imageSrc: "/assets/img/portfolio/kaufastseo526x740.webp",
     categoryLinks: ["SEO", "Marketing"],
     projectTitle: "Cómo mejorar tu ranking en Google",
     title: "Estrategias de Posicionamiento",
@@ -10,7 +10,7 @@ export const portfolioData = [
   {
     id: 2,
     slug: "seo-local-destaca-en-tu-ciudad",
-    imageSrc: "/assets/img/portfolio/portfolio1_2.jpg",
+    imageSrc: "/assets/img/portfolio/PlanB636x470.webp",
     categoryLinks: ["SEO", "Local SEO", "Marketing"],
     projectTitle: "SEO Local: Destaca en tu ciudad",
     title: "Optimización Local",
@@ -18,7 +18,7 @@ export const portfolioData = [
   {
     id: 3,
     slug: "la-importancia-del-contenido-en-el-seo",
-    imageSrc: "/assets/img/portfolio/portfolio1_3.jpg",
+    imageSrc: "/assets/img/portfolio/inmobi636 × 470.webp",
     categoryLinks: ["SEO", "Content Marketing"],
     projectTitle: "La importancia del contenido en el SEO",
     title: "Contenido Optimizado",
@@ -26,7 +26,7 @@ export const portfolioData = [
   {
     id: 4,
     slug: "seo-para-tiendas-online",
-    imageSrc: "/assets/img/portfolio/portfolio1_4.jpg",
+    imageSrc: "/assets/img/portfolio/apm526x260.webp",
     categoryLinks: ["SEO", "E-Commerce"],
     projectTitle: "SEO para tiendas online: Aumenta tus ventas",
     title: "SEO en E-Commerce",
@@ -145,7 +145,7 @@ export const portfolioData4 = [
   {
     id: 18,
     slug: "inmobi-real-state",
-    imageUrl: "/assets/img/portfolio/portfolio3_1.jpg",
+    imageUrl: "/assets/img/portfolio/inmobi746 × 540.webp",
     client: "Inmobi Real Estate Group",
     projectDate: "June 15, 2024",
     category: "Real Estate",
@@ -165,7 +165,7 @@ export const portfolioData4 = [
   {
     id: 19,
     slug: "procesos-migratorios-apm",
-    imageUrl: "/assets/img/portfolio/portfolio3_2.jpg",
+    imageUrl: "/assets/img/portfolio/apm526x540.webp",
     client: "APM Legal Services",
     projectDate: "August 10, 2024",
     category: "Legal and Immigration",
@@ -184,28 +184,28 @@ export const portfolioData4 = [
   },
   {
     id: 20,
-    slug: "sigma-clinica-dental",
-    imageUrl: "/assets/img/portfolio/portfolio3_3.jpg",
-    client: "Sigma Dental Group",
+    slug: "planbeau",
+    imageUrl: "/assets/img/portfolio/PlanB1290x540.webp",
+    client: "PlanBeu Relocation Services",
     projectDate: "May 20, 2024",
-    category: "Medical",
-    title: "Sigma Clinica Dental",
+    category: "Visa and Relocation Services",
+    title: "PlanBeu",
     parentClass: "col-lg-12",
     description:
-      "Sigma Clinica Dental is a modern dental clinic providing comprehensive oral care with a focus on patient comfort.",
-    challengeAndSolution: {
-      challenge:
-        "Developing a website that communicates professionalism while being accessible and informative to patients.",
-      solution:
-        "Built a responsive website with a sleek design, integrated online appointment booking, and optimized for local SEO to attract nearby patients.",
-    },
-    finalResult:
-      "Achieved a 40% increase in appointment bookings and became a top-ranking dental clinic in local search results.",
+    "PlanBeu provides comprehensive visa and relocation services, simplifying the moving process for individuals and businesses.",
+  challengeAndSolution: {
+    challenge:
+      "Creating a platform that combines detailed service information with SEO optimization to target expats and relocating professionals.",
+    solution:
+      "Built an informative website with an intuitive layout, targeted SEO strategies for relocation-related keywords, and multilingual support.",
   },
+  finalResult:
+    "Ranked on the first page for relocation services in multiple regions and increased client inquiries by 60%.",
+},
   {
     id: 21,
     slug: "dr-julia-scheinecker",
-    imageUrl: "/assets/img/portfolio/portfolio3_4.png",
+    imageUrl: "/assets/img/portfolio/juliascheinecker520x540.webp",
     client: "Dr. Julia Scheinecker",
     projectDate: "July 5, 2024",
     category: "Medical",
@@ -224,28 +224,28 @@ export const portfolioData4 = [
   },
   {
     id: 22,
-    slug: "planbeu",
-    imageUrl: "/assets/img/portfolio/portfolio3_5.png",
-    client: "PlanBeu Relocation Services",
+    slug: "sigma-clinica-dental",
+    imageUrl: "/assets/img/portfolio/sigmaclinicadental746x540.webp",
+    client: "Sigma Dental Group",
     projectDate: "September 12, 2024",
-    category: "Visa and Relocation Services",
-    title: "PlanBeu",
+    category: "Medical",
+    title: "Sigma Clinica Dental",
     parentClass: "col-lg-7",
     description:
-      "PlanBeu provides comprehensive visa and relocation services, simplifying the moving process for individuals and businesses.",
-    challengeAndSolution: {
-      challenge:
-        "Creating a platform that combines detailed service information with SEO optimization to target expats and relocating professionals.",
-      solution:
-        "Built an informative website with an intuitive layout, targeted SEO strategies for relocation-related keywords, and multilingual support.",
-    },
-    finalResult:
-      "Ranked on the first page for relocation services in multiple regions and increased client inquiries by 60%.",
+    "Sigma Clinica Dental is a modern dental clinic providing comprehensive oral care with a focus on patient comfort.",
+  challengeAndSolution: {
+    challenge:
+      "Developing a website that communicates professionalism while being accessible and informative to patients.",
+    solution:
+      "Built a responsive website with a sleek design, integrated online appointment booking, and optimized for local SEO to attract nearby patients.",
   },
+  finalResult:
+    "Achieved a 40% increase in appointment bookings and became a top-ranking dental clinic in local search results.",
+},
   {
     id: 23,
     slug: "kaufast",
-    imageUrl: "/assets/img/portfolio/portfolio3_6.png",
+    imageUrl: "/assets/img/portfolio/kaufastseo1290x700.webp",
     client: "Kaufast SEO Agency",
     projectDate: "October 1, 2024",
     category: "SEO y Diseño web",
