@@ -24,17 +24,17 @@ export const menuItems = [
     title: "CONTACTO",
     link: "/contact",
   },
-  {
-    id: 5,
-    title: "EN",
-    isActive: true,
-    subMenuItems: [
-      { id: 11, label: "ESPAÑOL", link: "/" },
-      { id: 12, label: "ENGLISH", link: "/home-2" },
-      { id: 13, label: "GERMAN", link: "/home-3" },
-      { id: 14, label: "PORTUGUÊS", link: "/home-4" },
-      { id: 15, label: "ITALINO", link: "/home-5" },
-      { id: 16, label: "SRBIJA", link: "/home-6" },
-    ],
-  },
+  // {
+  //   id: 5,
+  //   title: "EN",
+  //   isActive: true,
+  //   subMenuItems: [
+  //     { id: 11, label: "ESPAÑOL", link: "/" },
+  //     { id: 12, label: "ENGLISH", link: "/" },
+  //     { id: 13, label: "GERMAN", link: "/" },
+  //     { id: 14, label: "PORTUGUÊS", link: "/" },
+  //     { id: 15, label: "ITALINO", link: "/" },
+  //     { id: 16, label: "SRBIJA", link: "/" },
+  //   ],
+  // },
 ];

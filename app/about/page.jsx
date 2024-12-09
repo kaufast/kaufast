@@ -1,4 +1,3 @@
-import Awards from "@/components/about/Awards";
 import Breadcumb from "@/components/about/Breadcumb";
 import Contact from "@/components/about/Contact";
 import Facts from "@/components/about/Facts";
@@ -18,7 +17,6 @@ export default function AboutPage() {
       <Breadcumb />
       <Facts />
       <Features />
-      <Awards />
       <Contact />
       <Footer8 />
     </>

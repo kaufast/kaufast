@@ -147,123 +147,122 @@ export const portfolioData4 = [
     slug: "inmobi-real-state",
     imageUrl: "/assets/img/portfolio/inmobi746 × 540.webp",
     client: "Inmobi Real Estate Group",
-    projectDate: "15 de noviembre de 2024",
-    category: "Bienes Raíces - España",
-    title: "Inmobi - Real State",
+    projectDate: "June 15, 2024",
+    category: "Real Estate",
+    title: "Inmobi Real State",
     parentClass: "col-lg-7",
     description:
-      "Inmobi Real State es una plataforma líder que conecta a compradores y vendedores de propiedades de manera fluida, ofreciendo servicios integrales de bienes raíces.",
+      "Inmobi Real State is a premier platform that connects property buyers and sellers seamlessly, offering comprehensive real estate services.",
     challengeAndSolution: {
       challenge:
-        "Crear un sitio web atractivo que muestre propiedades mientras se optimiza para SEO para garantizar visibilidad en un mercado competitivo.",
+        "Creating an engaging website that showcases properties while optimizing for SEO to ensure visibility in a competitive market.",
       solution:
-        "Se desarrolló una interfaz fácil de usar con funciones avanzadas de búsqueda de propiedades, se integraron mejores prácticas de SEO y se optimizó el contenido para palabras clave locales y globales.",
+        "Developed a user-friendly interface with advanced property search features, integrated SEO best practices, and optimized content for local and global keywords.",
     },
     finalResult:
-      "Se logró un aumento del 70% en tráfico orgánico en tres meses, con usuarios pasando más tiempo explorando listados de propiedades.",
+      "Achieved a 70% increase in organic traffic within three months, with users spending more time exploring property listings.",
   },
   {
     id: 19,
     slug: "procesos-migratorios-apm",
     imageUrl: "/assets/img/portfolio/apm526x540.webp",
-    client: "Visas y Servicios Legales",
-    projectDate: "10 de agosto de 2024",
-    category: "Legal e Inmigración - EE. UU.",
+    client: "APM Legal Services",
+    projectDate: "August 10, 2024",
+    category: "Legal and Immigration",
     title: "Procesos Migratorios | APM",
     parentClass: "col-lg-5",
     description:
-      "APM se especializa en brindar servicios legales y de inmigración, ayudando a los clientes a navegar procesos migratorios complejos con facilidad.",
+      "APM specializes in providing legal and immigration services, helping clients navigate complex migration processes with ease.",
     challengeAndSolution: {
       challenge:
-        "Establecer una presencia profesional en línea que genere confianza y proporcione acceso sencillo a recursos de inmigración.",
+        "Establishing a professional online presence that builds trust and provides easy access to immigration resources.",
       solution:
-        "Se diseñó un sitio web visualmente atractivo con énfasis en una navegación clara, contenido informativo y optimización SEO para consultas relacionadas con inmigración.",
+        "Designed a visually appealing website with an emphasis on clear navigation, informative content, and SEO optimization for immigration-related queries.",
     },
     finalResult:
-      "Aumentó las consultas de clientes en un 50% mediante la mejora en el posicionamiento en motores de búsqueda y una experiencia en línea más atractiva.",
+      "Boosted client inquiries by 50% through improved search engine rankings and a more engaging online experience.",
   },
   {
     id: 20,
     slug: "planbeau",
     imageUrl: "/assets/img/portfolio/PlanB1290x540.webp",
     client: "PlanBeu Relocation Services",
-    projectDate: "20 de mayo de 2024",
-    category: "Servicios de Visa y Reubicación - Reino Unido y UE",
+    projectDate: "May 20, 2024",
+    category: "Visa and Relocation Services",
     title: "PlanBeu",
     parentClass: "col-lg-12",
     description:
-      "PlanBeu ofrece servicios integrales de visa y reubicación, simplificando el proceso de mudanza para individuos y empresas.",
-    challengeAndSolution: {
-      challenge:
-        "Crear una plataforma que combine información detallada de servicios con optimización SEO para atraer expatriados y profesionales en reubicación.",
-      solution:
-        "Se construyó un sitio web informativo con un diseño intuitivo, estrategias de SEO dirigidas a palabras clave relacionadas con reubicación y soporte multilingüe.",
-    },
-    finalResult:
-      "Se logró posicionar en la primera página para servicios de reubicación en múltiples regiones y se incrementaron las consultas de clientes en un 60%.",
+    "PlanBeu provides comprehensive visa and relocation services, simplifying the moving process for individuals and businesses.",
+  challengeAndSolution: {
+    challenge:
+      "Creating a platform that combines detailed service information with SEO optimization to target expats and relocating professionals.",
+    solution:
+      "Built an informative website with an intuitive layout, targeted SEO strategies for relocation-related keywords, and multilingual support.",
   },
+  finalResult:
+    "Ranked on the first page for relocation services in multiple regions and increased client inquiries by 60%.",
+},
   {
     id: 21,
     slug: "dr-julia-scheinecker",
     imageUrl: "/assets/img/portfolio/juliascheinecker520x540.webp",
     client: "Dr. Julia Scheinecker",
-    projectDate: "5 de julio de 2024",
-    category: "Médico",
-    title: "Dr. Julia Scheinecker - Austria",
+    projectDate: "July 5, 2024",
+    category: "Medical",
+    title: "Dr. Julia Scheinecker",
     parentClass: "col-lg-5",
     description:
-      "La Dra. Julia Scheinecker es una reconocida profesional médica que ofrece servicios de salud especializados con un toque personal.",
+      "Dr. Julia Scheinecker is a renowned medical practitioner offering specialized healthcare services with a personal touch.",
     challengeAndSolution: {
       challenge:
-        "Destacar la experiencia y credibilidad de la Dra. Scheinecker mientras se proporciona una forma fácil para que los pacientes reserven consultas.",
+        "Showcasing Dr. Scheinecker’s expertise and credibility while providing an easy way for patients to book consultations.",
       solution:
-        "Se desarrolló un sitio web limpio y profesional con enfoque en SEO para servicios médicos y funciones añadidas para la programación de citas.",
+        "Developed a clean, professional website with a focus on SEO for medical services and added features for appointment scheduling.",
     },
     finalResult:
-      "Aumentaron las consultas de pacientes en un 35% y se mejoró la reputación en línea de la doctora a través de reseñas positivas y mayor visibilidad.",
+      "Increased patient inquiries by 35% and improved the doctor’s online reputation through positive reviews and visibility.",
   },
   {
     id: 22,
     slug: "sigma-clinica-dental",
     imageUrl: "/assets/img/portfolio/sigmaclinicadental746x540.webp",
     client: "Sigma Dental Group",
-    projectDate: "12 de septiembre de 2024",
-    category: "Médico - España",
+    projectDate: "September 12, 2024",
+    category: "Medical",
     title: "Sigma Clinica Dental",
     parentClass: "col-lg-7",
     description:
-      "Sigma Clinica Dental es una clínica dental moderna que proporciona cuidado oral integral con un enfoque en la comodidad del paciente.",
-    challengeAndSolution: {
-      challenge:
-        "Desarrollar un sitio web que comunique profesionalismo mientras sea accesible e informativo para los pacientes.",
-      solution:
-        "Se creó un sitio web responsivo con un diseño moderno, integración de reservas en línea y optimización SEO local para atraer pacientes cercanos.",
-    },
-    finalResult:
-      "Se logró un aumento del 40% en reservas de citas y se posicionó como una clínica dental de alto rango en búsquedas locales.",
+    "Sigma Clinica Dental is a modern dental clinic providing comprehensive oral care with a focus on patient comfort.",
+  challengeAndSolution: {
+    challenge:
+      "Developing a website that communicates professionalism while being accessible and informative to patients.",
+    solution:
+      "Built a responsive website with a sleek design, integrated online appointment booking, and optimized for local SEO to attract nearby patients.",
   },
+  finalResult:
+    "Achieved a 40% increase in appointment bookings and became a top-ranking dental clinic in local search results.",
+},
   {
     id: 23,
     slug: "kaufast",
     imageUrl: "/assets/img/portfolio/kaufastseo1290x700.webp",
     client: "Kaufast SEO Agency",
-    projectDate: "25 de octubre de 2024",
-    category: "SEO y Desarrollo Web - España",
+    projectDate: "October 1, 2024",
+    category: "SEO y Diseño web",
     title: "Kaufast",
     parentClass: "col-lg-12",
     description:
-      "Kaufast es una agencia de SEO y diseño web que se especializa en crear sitios web de alto rendimiento que ocupan las primeras posiciones en los resultados de búsqueda.",
+      "Kaufast is an SEO and web design agency specializing in crafting high-performing websites that rank at the top of search results.",
     challengeAndSolution: {
       challenge:
-        "Posicionar a Kaufast como líder en SEO y diseño web mediante la creación de un portafolio atractivo que destaque proyectos exitosos.",
+        "Positioning Kaufast as a leader in SEO and web design by creating an engaging portfolio that highlights successful projects.",
       solution:
-        "Se diseñó un sitio web de portafolio interactivo que muestra estudios de caso, testimonios y contenido enfocado en SEO para un alcance máximo.",
+        "Designed an interactive portfolio website showcasing case studies, testimonials, and SEO-focused content for maximum reach.",
     },
     finalResult:
-      "Se mejoró la generación de prospectos en un 80% gracias a una mayor visibilidad y una sólida presencia en línea.",
+      "Improved lead generation by 80% through enhanced visibility and a strong online presence.",
   },
 ];
-
 
 export const projects = [
   {

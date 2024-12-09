@@ -1,86 +1,11 @@
 export const featureData = [
-  {
-    id: 1,
-    iconSrc: "/assets/img/icon/feature-icon1-1.svg",
-    title: "SEO Local / Internacional",
-    text: "We care success relationships fuel real success. We love building brands and helping",
-  },
-  {
-    id: 2,
-    iconSrc: "/assets/img/icon/feature-icon1-2.svg",
-    title: "Website Development",
-    text: "We care success relationships fuel real success. We love building brands and helping",
-  },
-  {
-    id: 3,
-    iconSrc: "/assets/img/icon/feature-icon1-3.svg",
-    title: "Pago por Click (PPC)",
-    text: "We care success relationships fuel real success. We love building brands and helping",
-  },
-  {
-    id: 4,
-    iconSrc: "/assets/img/icon/feature-icon1-4.svg",
-    title: "Google Ads",
-    text: "We care success relationships fuel real success. We love building brands and helping",
-  },
+
 ];
 export const featureData2 = [
-  {
-    id: 5,
-    icon: "/assets/img/icon/feature-icon1-1.svg",
-    title: "Branding Design",
-    text: "We care success relationships fuel success we love building",
-  },
-  {
-    id: 6,
-    icon: "/assets/img/icon/feature-icon1-2.svg",
-    title: "SEO Local / Internacional",
-    text: "We care success relationships fuel success we love building",
-  },
-  {
-    id: 7,
-    icon: "/assets/img/icon/feature-icon1-3.svg",
-    title: "Digital Marketing",
-    text: "We care success relationships fuel success we love building",
-  },
+
 ];
 export const featureData3 = [
-  {
-    id: 8,
-    icon: "/assets/img/icon/feature-icon1-1.svg",
-    title: "Branding Design",
-    text: "We care success relationships fuel success we love building",
-  },
-  {
-    id: 9,
-    icon: "/assets/img/icon/feature-icon1-2.svg",
-    title: "Web Development",
-    text: "We care success relationships fuel success we love building",
-  },
-  {
-    id: 10,
-    icon: "/assets/img/icon/feature-icon1-3.svg",
-    title: "Digital Marketing",
-    text: "We care success relationships fuel success we love building",
-  },
-  {
-    id: 11,
-    icon: "/assets/img/icon/feature-icon1-1.svg",
-    title: "Branding Design",
-    text: "We care success relationships fuel success we love building",
-  },
-  {
-    id: 12,
-    icon: "/assets/img/icon/feature-icon1-2.svg",
-    title: "Web Development",
-    text: "We care success relationships fuel success we love building",
-  },
-  {
-    id: 13,
-    icon: "/assets/img/icon/feature-icon1-3.svg",
-    title: "Digital Marketing",
-    text: "We care success relationships fuel success we love building",
-  },
+ 
 ];
 export const featureData4 = [
   {
