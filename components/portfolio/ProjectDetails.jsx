@@ -65,11 +65,11 @@ export default function ProjectDetails({ portfolioSlug }) {
               <h2 className="sec-title">{portfolioItem.title}</h2>
               <p className="sec-text mt-30">{portfolioItem.description || "No description available."}</p>
             </div>
-            <h3>Challenge & Solution</h3>
+            <h3>Desafío & Solución</h3>
             <p className="sec-text mb-n1">
                 {portfolioItem.challengeAndSolution.challenge}
             </p>
-            <h3 className="mt-35">Final Result</h3>
+            <h3 className="mt-35">Resultado Final</h3>
             <p className="sec-text mb-n1">
              {portfolioItem.finalResult}
             </p>

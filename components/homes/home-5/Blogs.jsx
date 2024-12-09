@@ -11,7 +11,7 @@ export default function Blogs() {
           <div className="col-xxl-7 col-xl-6 col-lg-8">
             <div className="title-area text-center">
               <h2 className="sec-title  text-smoke">
-                Read Our Articles and News
+              Blog sobre SEO y Marketing Digital
               </h2>
             </div>
           </div>

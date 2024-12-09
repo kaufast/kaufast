@@ -10,7 +10,7 @@ export default function Blogs() {
         <div className="row justify-content-center">
           <div className="col-xxl-7 col-xl-6 col-lg-8">
             <div className="title-area text-center">
-              <h2 className="sec-title">Read Our Articles and News</h2>
+              <h2 className="sec-title">Blog sobre SEO y Marketing Digital</h2>
             </div>
           </div>
         </div>
