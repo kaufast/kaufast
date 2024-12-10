@@ -34,7 +34,7 @@ export default function Contact() {
         style={{ top: "-100px", left: 0, bottom: "140px" }}
       >
         <iframe
-          src="https://maps.google.com/maps?q=London%20Eye%2C%20London%2C%20United%20Kingdom&t=m&z=10&output=embed&iwloc=near"
+          src="https://maps.google.com/maps?q=Calle%20Ribera%2014,%2008004,%20Barcelona,%20Spain&t=m&z=13&output=embed&iwloc=near"
           allowFullScreen=""
           loading="lazy"
         ></iframe>

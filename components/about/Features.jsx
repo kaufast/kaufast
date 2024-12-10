@@ -21,20 +21,21 @@ export default function Features() {
         <div className="row">
           <div className="col-lg-6">
             <div className="title-area mb-45">
-              <h2 className="sec-title">
-                Passionate About Creating Quality Design
-              </h2>
+            <h2 className="sec-title">
+              Apasionados por Crear Diseños de Calidad y Visibilidad Online
+            </h2>
             </div>
-            <h4>We Love What We Do</h4>
+            <h4>Amamos lo que hacemos</h4>
             <p>
-              We are a creative agency working with brands building insightful
-              strategy, creating unique designs and crafting value
+              Somos una agencia creativa especializada en diseño web y optimización SEO. Ayudamos a las marcas a
+              destacar en los motores de búsqueda mediante estrategias efectivas y diseños únicos que conectan con su
+              audiencia.
             </p>
-            <h4 className="mt-35">Why Work With Us</h4>
+            <h4 className="mt-35">¿Por qué trabajar con nosotros?</h4>
             <p className="mb-n1">
-              If you ask our clients what it’s like working with 36, they’ll
-              talk about how much we care about their success. For us, real
-              relationships fuel real success. We love building brands
+              Nuestros clientes destacan nuestra dedicación a su éxito. Nos enfocamos en construir sitios web
+              optimizados para buscadores, con diseños atractivos que mejoran el rendimiento en línea. Para nosotros,
+              las relaciones genuinas son la clave de los resultados reales, creando marcas visibles y memorables.
             </p>
           </div>
         </div>

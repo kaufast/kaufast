@@ -9,7 +9,7 @@ export default function Pricing() {
         <div className="row justify-content-center">
           <div className="col-xxl-7 col-xl-6 col-lg-8">
             <div className="title-area text-center">
-              <h2 className="sec-title">Best Pricing Plan</h2>
+            <h2 className="sec-title">Elige el Plan Perfecto para Tu Negocio</h2>
             </div>
           </div>
         </div>
@@ -20,9 +20,9 @@ export default function Pricing() {
                 <h4 className="pricing-card_title">{elm.title}</h4>
                 <div className="price-card-wrap">
                   <h4 className="pricing-card_price">
-                    <span className="currency">$</span>
+                    <span className="currency">€</span>
                     {elm.price}
-                    <span className="duration">/mo</span>
+                    <span className="duration">/mes</span>
                   </h4>
                 </div>
                 <p>{elm.title}</p>
@@ -37,8 +37,8 @@ export default function Pricing() {
                 </div>
                 <Link scroll={false} href="/project" className="btn">
                   <span className="link-effect">
-                    <span className="effect-1">CHOOSE THIS PLAN</span>
-                    <span className="effect-1">CHOOSE THIS PLAN</span>
+                  <span className="effect-1">ELEGIR ESTE PLAN</span>
+                  <span className="effect-1">MÁS INFORMACIÓN</span>
                   </span>
                 </Link>
               </div>
