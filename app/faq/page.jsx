@@ -3,7 +3,7 @@ import Breadcumb from "@/components/faq/Breadcumb";
 import ContactInfo from "@/components/faq/ContactInfo";
 import Faq from "@/components/faq/Faq";
 
-import Footer8 from "@/components/footers/Footer8";
+import Footer from "@/components/footers/Footer";
 import Header3 from "@/components/headers/Header3";
 import React from "react";
 
@@ -18,7 +18,7 @@ export default function FaqPage() {
       <Faq />
       <ContactInfo />
       <MarqueeComponent />
-      <Footer8 />
+      <Footer />
     </>
   );
 }

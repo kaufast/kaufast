@@ -1,5 +1,5 @@
 import MarqueeComponent from "@/components/common/Marquee";
-import Footer8 from "@/components/footers/Footer8";
+import Footer from "@/components/footers/Footer";
 import Header3 from "@/components/headers/Header3";
 import Breadcumb2 from "@/components/portfolio/Breadcumb2";
 import ProjectDetails from "@/components/portfolio/ProjectDetails";
@@ -23,7 +23,7 @@ export default function ProjectPageDetails({ params }) {
       <Breadcumb2 />
       <ProjectDetails portfolioSlug={params.slug} />
       <MarqueeComponent />
-      <Footer8 />
+      <Footer />
     </>
   );
 }

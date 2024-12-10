@@ -1,5 +1,5 @@
 import MarqueeComponent from "@/components/common/Marquee";
-import Footer8 from "@/components/footers/Footer8";
+import Footer from "@/components/footers/Footer";
 import Header3 from "@/components/headers/Header3";
 import Breadcumb from "@/components/pricing/Breadcumb";
 import Faq from "@/components/pricing/Faq";
@@ -18,7 +18,7 @@ export default function PricingPage() {
       <Pricing />
       <Faq />
       <MarqueeComponent />
-      <Footer8 />
+      <Footer />
     </>
   );
 }

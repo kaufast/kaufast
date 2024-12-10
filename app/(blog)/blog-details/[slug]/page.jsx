@@ -3,7 +3,7 @@ import { allBlogs } from "@/data/blogs";
 import Header3 from "@/components/headers/Header3";
 import Breadcumb from "@/components/blog/Breadcumb";
 import MarqueeComponent from "@/components/common/Marquee";
-import Footer8 from "@/components/footers/Footer8";
+import Footer from "@/components/footers/Footer";
 
 export const metadata = {
   title: "Blog Details || KauFast - Agencia SEO",
@@ -23,7 +23,7 @@ export default function BlogDetailsPage({ params }) {
       <Breadcumb />
       <BlogDetails blogSlug={params.slug} /> {/* Pass the slug to BlogDetails */}
       <MarqueeComponent />
-      <Footer8 />
+      <Footer />
     </>
   );
 }

@@ -1,9 +1,39 @@
 "use client";
+import { useState } from "react";
 import Socials from "./component/Socials";
 import Image from "next/image";
 import FooterLinks3 from "./component/FooterLinks3";
 
-export default function Footer8() {
+const Footer = () => {
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleNewsletterSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch("/api/subscribe", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email }),
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        setMessage(result.message);
+        setEmail("");
+      } else {
+        setMessage(result.error || "Hubo un problema al suscribirte.");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      setMessage("Hubo un error inesperado. Intenta nuevamente.");
+    }
+  };
+
   return (
     <footer className="footer-wrapper footer-layout2 overflow-hidden">
       <div className="container">
@@ -12,18 +42,17 @@ export default function Footer8() {
             <div className="col-md-6 col-xl-5 col-lg-6">
               <div className="widget widget-newsletter footer-widget">
                 <h3 className="widget_title">
-                Activa el superpoder de la visibilidad de tu negocio hoy
+                  Activa el superpoder de la visibilidad de tu negocio hoy
                 </h3>
-                <form
-                  onSubmit={(e) => e.preventDefault()}
-                  className="newsletter-form"
-                >
+                <form onSubmit={handleNewsletterSubmit} className="newsletter-form">
                   <div className="form-group">
                     <input
                       className="form-control"
                       type="email"
                       placeholder="Tu correo aquí"
-                      required=""
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      required
                     />
                   </div>
                   <button type="submit" className="btn">
@@ -36,8 +65,10 @@ export default function Footer8() {
                   </button>
                 </form>
                 <p>
-                Al registrarte para recibir nuestros correos, aceptas nuestra Política de Privacidad. Tu información está en buenas manos.
+                  Al registrarte para recibir nuestros correos, aceptas nuestra Política de
+                  Privacidad. Tu información está en buenas manos.
                 </p>
+                {message && <p className="newsletter-message">{message}</p>}
               </div>
             </div>
             <div className="col-md-3 col-xl-2 col-lg-3">
@@ -92,3 +123,5 @@ export default function Footer8() {
     </footer>
   );
 }
+export default Footer;
+

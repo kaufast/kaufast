@@ -1,4 +1,4 @@
-import Footer8 from "@/components/footers/Footer8";
+import Footer from "@/components/footers/Footer";
 import Header3 from "@/components/headers/Header3";
 import Breadcumb from "@/components/portfolio/Breadcumb";
 
@@ -13,7 +13,7 @@ export default function ProjectPage2() {
       <Header3 />
       <Breadcumb />
       <Projects />
-      <Footer8 />
+      <Footer />
     </>
   );
 }

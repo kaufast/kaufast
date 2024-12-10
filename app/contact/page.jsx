@@ -3,7 +3,7 @@ import Breadcumb from "@/components/contact/Breadcumb";
 import Contact from "@/components/contact/Contact";
 import ContactInfo from "@/components/contact/ContactInfo";
 
-import Footer8 from "@/components/footers/Footer8";
+import Footer from "@/components/footers/Footer";
 import Header3 from "@/components/headers/Header3";
 import React from "react";
 
@@ -19,7 +19,7 @@ export default function ContactPage() {
       <ContactInfo />
       <Contact />
       {/* <MarqueeComponent /> */}
-      <Footer8 />
+      <Footer />
     </>
   );
 }

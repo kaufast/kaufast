@@ -2,7 +2,7 @@ import Breadcumb from "@/components/about/Breadcumb";
 import Contact from "@/components/about/Contact";
 import Facts from "@/components/about/Facts";
 import Features from "@/components/about/Features";
-import Footer8 from "@/components/footers/Footer8";
+import Footer from "@/components/footers/Footer";
 import Header3 from "@/components/headers/Header3";
 import React from "react";
 
@@ -18,7 +18,7 @@ export default function AboutPage() {
       <Facts />
       <Features />
       <Contact />
-      <Footer8 />
+      <Footer />
     </>
   );
 }

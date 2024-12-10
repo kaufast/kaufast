@@ -1,4 +1,4 @@
-import Footer8 from "@/components/footers/Footer8";
+import Footer from "@/components/footers/Footer";
 import Header1 from "@/components/headers/Header1";
 import SearchPopup from "@/components/headers/component/SearchPopup";
 import About from "@/components/homes/home/About";
@@ -21,7 +21,7 @@ export default function HomePage() {
       <Portfolio />
       <Testimonials />
       <Blogs />
-      <Footer8 />
+      <Footer />
     </>
   );
 }
