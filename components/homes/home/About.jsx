@@ -33,7 +33,7 @@ export default function About() {
               <div className="about-content-wrap ">
                 <div className="title-area mb-0">
                     <h2 className="sec-title crossed-title">
-                         Te damos el superpoder de la <span class="crossed-text">in</span>visibilidad
+                      Te damos el superpoder de la <span className="crossed-text">in</span>visibilidad
                     </h2>
                     <p className="sec-text mt-35">
                       En un mundo donde la competencia está a un clic, la visibilidad es clave.
