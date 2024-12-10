@@ -6,7 +6,6 @@ import "../public/assets/css/vendor.css";
 import "../public/assets/sass/style.scss";
 import { ParallaxProvider } from "react-scroll-parallax";
 import ScrollTop from "@/components/common/ScrollTop";
-import CookieConsentBanner from "@/components/common/CookieConsentBanner"; // Import the Cookie Consent Component
 import { Unbounded, Poppins } from "next/font/google";
 import ScrollTopBehaviour from "@/components/common/ScrollTopBehavier";
 
@@ -51,7 +50,6 @@ export default function RootLayout({ children }) {
         <ParallaxProvider>{children}</ParallaxProvider>
         <ScrollTop />
         <ScrollTopBehaviour />
-        <CookieConsentBanner /> {/* Add the Cookie Consent Banner here */}
 
       </body>
     </html>

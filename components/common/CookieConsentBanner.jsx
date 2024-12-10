@@ -50,7 +50,7 @@ export default function CookieConsentBanner() {
       }}
       expires={150}
     >
-      Elige acpetar cookies para mejorar tu experiencia{" "}
+      Elige aceptar cookies para mejorar tu experiencia{" "}
       <a
         href="/privacy-policy"
         style={{ color: "#e3ff04", textDecoration: "underline" }}
