@@ -1,22 +1,21 @@
 export const contactInfo = [
   {
     iconSrc: "/assets/img/icon/phone.svg",
-    title: "Pongamonós en Contácto",
-
-    text: "Good website tells a story that will make users fully immerse themselves operating",
+    title: "Pongámonos en Contacto",
+    text: "Un buen sitio web cuenta una historia que permite a los usuarios sumergirse completamente en la experiencia.",
     linkText: "+34 689 219 866",
     linkUrl: "tel:00346689219866",
   },
   {
     iconSrc: "/assets/img/icon/speech-bubble.svg",
-    title: "Enviar Mensaje",
-
-    text: "Good website tells a story that will make users fully immerse themselves operating",
+    title: "Enviar un Mensaje",
+    text: "Un buen sitio web cuenta una historia que permite a los usuarios sumergirse completamente en la experiencia.",
     linkText: "info@kaufast.com",
     linkUrl: "mailto:info@kaufast.com",
   },
-  // Add more feature cards as needed
+  // Agrega más tarjetas de características según sea necesario
 ];
+
 export const contactInfo2 = [
   {
     iconSrc: "/assets/img/icon/location-pin-alt.svg",

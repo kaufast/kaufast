@@ -6,6 +6,15 @@ export const portfolioData = [
     categoryLinks: ["SEO", "Marketing"],
     projectTitle: "Cómo mejorar tu ranking en Google",
     title: "Estrategias de Posicionamiento",
+    description:
+      "Implementamos estrategias personalizadas para mejorar tu ranking en Google y atraer tráfico orgánico de calidad.",
+    challengeAndSolution: {
+      challenge: "Destacar entre competidores en un mercado saturado.",
+      solution:
+        "Optimizamos contenido, realizamos auditorías técnicas y aplicamos tácticas de link-building para maximizar la visibilidad.",
+    },
+    finalResult:
+      "Incremento del 50% en tráfico orgánico en tres meses, consolidando la autoridad del sitio en su nicho.",
   },
   {
     id: 2,
@@ -14,6 +23,15 @@ export const portfolioData = [
     categoryLinks: ["SEO", "Local SEO", "Marketing"],
     projectTitle: "SEO Local: Destaca en tu ciudad",
     title: "Optimización Local",
+    description:
+      "Aumenta tu presencia en búsquedas locales y conecta con clientes cercanos interesados en tus servicios.",
+    challengeAndSolution: {
+      challenge: "Falta de visibilidad en resultados de búsqueda locales.",
+      solution:
+        "Configuramos y optimizamos Google My Business, además de trabajar con palabras clave locales específicas.",
+    },
+    finalResult:
+      "Aumento del 35% en llamadas y visitas de clientes locales en un trimestre.",
   },
   {
     id: 3,
@@ -22,6 +40,15 @@ export const portfolioData = [
     categoryLinks: ["SEO", "Content Marketing"],
     projectTitle: "La importancia del contenido en el SEO",
     title: "Contenido Optimizado",
+    description:
+      "El contenido es clave para mejorar tu SEO. Creamos estrategias que destacan tu marca y conectan con tu audiencia.",
+    challengeAndSolution: {
+      challenge: "Baja retención de usuarios y contenido desactualizado.",
+      solution:
+        "Desarrollamos un calendario de contenido optimizado para SEO, incluyendo blogs y recursos informativos.",
+    },
+    finalResult:
+      "El tiempo promedio en el sitio aumentó un 40%, con un crecimiento del 25% en conversiones.",
   },
   {
     id: 4,
@@ -30,6 +57,15 @@ export const portfolioData = [
     categoryLinks: ["SEO", "E-Commerce"],
     projectTitle: "SEO para tiendas online: Aumenta tus ventas",
     title: "SEO en E-Commerce",
+    description:
+      "Mejoramos la visibilidad de tu tienda online para atraer más clientes y aumentar tus ventas.",
+    challengeAndSolution: {
+      challenge: "Baja tasa de conversión y falta de tráfico cualificado.",
+      solution:
+        "Optimizamos las páginas de productos, integramos reviews y trabajamos en la velocidad del sitio.",
+    },
+    finalResult:
+      "Incremento del 60% en ventas online y una tasa de conversión mejorada en un 30%.",
   },
   {
     id: 5,
@@ -38,6 +74,15 @@ export const portfolioData = [
     categoryLinks: ["SEO", "Marketing Digital"],
     projectTitle: "Las métricas clave para medir el éxito del SEO",
     title: "SEO Metrics",
+    description:
+      "Identifica y monitorea las métricas más importantes para medir y mejorar tu estrategia de SEO.",
+    challengeAndSolution: {
+      challenge: "Falta de indicadores claros para evaluar resultados.",
+      solution:
+        "Implementamos herramientas de análisis avanzadas y capacitamos al equipo en la interpretación de datos.",
+    },
+    finalResult:
+      "Reportes más claros que permitieron decisiones estratégicas rápidas y un ROI del 120% en campañas de SEO.",
   },
   {
     id: 6,
@@ -46,6 +91,15 @@ export const portfolioData = [
     categoryLinks: ["SEO", "Keyword Research"],
     projectTitle: "Cómo elegir las palabras clave adecuadas para tu negocio",
     title: "Investigación de Keywords",
+    description:
+      "Descubre cómo las palabras clave adecuadas pueden transformar tu posicionamiento y atraer a tu público ideal.",
+    challengeAndSolution: {
+      challenge: "Palabras clave genéricas que no generan conversiones.",
+      solution:
+        "Realizamos una investigación exhaustiva de keywords para enfocar el tráfico en usuarios con intención de compra.",
+    },
+    finalResult:
+      "El tráfico cualificado creció un 70% y las conversiones aumentaron un 45%.",
   },
 ];
 
@@ -56,6 +110,15 @@ export const portfolioData2 = [
     imageSrc: "/assets/img/portfolio/portfolio2_1.jpg",
     category: "SEO",
     title: "¿Qué es el SEO y cómo funciona?",
+    description:
+      "Descubre los fundamentos del SEO y cómo puede ayudarte a aumentar la visibilidad de tu negocio en los motores de búsqueda.",
+    challengeAndSolution: {
+      challenge: "Confusión sobre cómo funciona el SEO y su impacto.",
+      solution:
+        "Creamos contenido educativo y desarrollamos estrategias prácticas para explicar y aplicar las técnicas de SEO.",
+    },
+    finalResult:
+      "Un aumento del 65% en consultas de clientes interesados en aplicar SEO en sus negocios.",
   },
   {
     id: 8,
@@ -63,6 +126,15 @@ export const portfolioData2 = [
     imageSrc: "/assets/img/portfolio/portfolio2_2.jpg",
     category: "SEO",
     title: "Los beneficios del SEO a largo plazo",
+    description:
+      "Aprende cómo una estrategia de SEO sostenida puede generar resultados duraderos y construir la autoridad de tu marca.",
+    challengeAndSolution: {
+      challenge: "Expectativas poco realistas de resultados inmediatos.",
+      solution:
+        "Diseñamos un plan de SEO a largo plazo con hitos claros y resultados medibles en cada etapa.",
+    },
+    finalResult:
+      "Un aumento sostenido del tráfico orgánico del 80% durante un año y una mayor retención de usuarios.",
   },
   {
     id: 9,
@@ -70,6 +142,15 @@ export const portfolioData2 = [
     imageSrc: "/assets/img/portfolio/portfolio2_3.jpg",
     category: "SEO",
     title: "Cómo optimizar la velocidad de tu sitio para SEO",
+    description:
+      "La velocidad de tu sitio web es clave para la experiencia del usuario y para mejorar tu posicionamiento en Google.",
+    challengeAndSolution: {
+      challenge: "Páginas lentas que frustran a los usuarios y reducen las conversiones.",
+      solution:
+        "Optimizamos el rendimiento del sitio, reducimos el tamaño de las imágenes y mejoramos el tiempo de carga.",
+    },
+    finalResult:
+      "Un incremento del 40% en la velocidad de carga del sitio y un 30% más de conversiones en un trimestre.",
   },
   {
     id: 10,
@@ -77,6 +158,15 @@ export const portfolioData2 = [
     imageSrc: "/assets/img/portfolio/portfolio2_4.jpg",
     category: "SEO",
     title: "Errores comunes en SEO y cómo evitarlos",
+    description:
+      "Evita los errores más frecuentes en SEO y aprende cómo optimizar tu estrategia para lograr mejores resultados.",
+    challengeAndSolution: {
+      challenge: "Implementaciones de SEO incorrectas que afectan el rendimiento.",
+      solution:
+        "Identificamos los errores mediante auditorías detalladas y capacitamos a los equipos para corregirlos.",
+    },
+    finalResult:
+      "Eliminación de errores críticos y un aumento del 50% en la efectividad de la estrategia SEO.",
   },
   {
     id: 11,
@@ -84,6 +174,15 @@ export const portfolioData2 = [
     imageSrc: "/assets/img/portfolio/portfolio2_5.jpg",
     category: "SEO",
     title: "SEO técnico: La base para un sitio exitoso",
+    description:
+      "Asegúrate de que la estructura técnica de tu sitio web esté optimizada para obtener los mejores resultados en los motores de búsqueda.",
+    challengeAndSolution: {
+      challenge: "Problemas técnicos que limitan la indexación y el posicionamiento.",
+      solution:
+        "Realizamos auditorías técnicas y corregimos problemas de rastreo, enlaces rotos y estructura de URL.",
+    },
+    finalResult:
+      "Un aumento del 75% en la indexación de páginas y mejoras significativas en las clasificaciones de búsqueda.",
   },
   {
     id: 12,
@@ -91,8 +190,18 @@ export const portfolioData2 = [
     imageSrc: "/assets/img/portfolio/portfolio2_6.jpg",
     category: "SEO",
     title: "Estrategias SEO para pequeñas empresas",
+    description:
+      "Desarrollamos estrategias SEO diseñadas para maximizar los recursos y la visibilidad de las pequeñas empresas.",
+    challengeAndSolution: {
+      challenge: "Limitaciones de presupuesto y falta de conocimiento en SEO.",
+      solution:
+        "Implementamos tácticas asequibles pero efectivas, como optimización local y campañas de contenido dirigidas.",
+    },
+    finalResult:
+      "Pequeñas empresas lograron un aumento del 60% en tráfico local con un ROI alto en seis meses.",
   },
 ];
+
 
 export const portfolioData3 = [
   {

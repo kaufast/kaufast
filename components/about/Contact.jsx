@@ -1,6 +1,30 @@
 "use client";
 
 export default function Contact() {
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    const formData = new FormData(event.currentTarget);
+    formData.append("access_key", "28e80e61-8ca6-4c74-acbd-91e76d825803");
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+      });
+
+      if (response.ok) {
+        alert("¡Mensaje enviado con éxito! Nos pondremos en contacto pronto.");
+        event.currentTarget.reset();
+      } else {
+        alert("Algo salió mal. Por favor, inténtalo nuevamente.");
+      }
+    } catch (error) {
+      console.error("Error al enviar el formulario:", error);
+      alert("Error de conexión. Por favor, inténtalo más tarde.");
+    }
+  };
+
   return (
     <div className="contact-area-1 space bg-theme shape-mockup-wrap">
       <div
@@ -22,13 +46,10 @@ export default function Contact() {
               <div className="title-area mb-30">
                 <h2 className="sec-title">Trabajemos para convertir ideas en resultados.</h2>
                 <p>
-                    ¡Genial! Estamos emocionados de saber de ti y de comenzar algo juntos.
+                  ¡Genial! Estamos emocionados de saber de ti y de comenzar algo juntos.
                 </p>
               </div>
-              <form
-                onSubmit={(e) => e.preventDefault()}
-                className="contact-form ajax-contact"
-              >
+              <form onSubmit={handleSubmit} className="contact-form ajax-contact">
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -46,23 +67,22 @@ export default function Contact() {
                     <div className="form-group">
                       <input
                         required
-                        type="text"
+                        type="email"
                         className="form-control style-border"
                         name="email"
                         id="email"
-                        placeholder="correo eléctronico*"
+                        placeholder="Correo electrónico*"
                       />
                     </div>
                   </div>
                   <div className="col-lg-12">
                     <div className="form-group">
                       <input
-                        required
                         type="text"
                         className="form-control style-border"
                         name="website"
                         id="website"
-                        placeholder="Cuentas con sitio web? Añadelo"
+                        placeholder="Cuentas con sitio web? Añádelo"
                       />
                     </div>
                   </div>
@@ -71,7 +91,7 @@ export default function Contact() {
                       <textarea
                         required
                         name="message"
-                        placeholder="¿En que podemos ayudar?*"
+                        placeholder="¿En qué podemos ayudar?*"
                         id="contactForm"
                         className="form-control style-border"
                       ></textarea>
