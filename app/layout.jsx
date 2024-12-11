@@ -58,7 +58,7 @@ export default function RootLayout({ children }) {
         {/* Add Cookie-Script CMP */}
         <script
           type="text/javascript"
-          charset="UTF-8"
+          charSet="UTF-8"
           src="https://cdn.cookie-script.com/s/041f0acc3eb9ea6bcb191f2b4322dcf9.js"
         ></script>
       </head>
