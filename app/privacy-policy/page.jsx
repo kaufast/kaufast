@@ -1,3 +1,4 @@
+// app>privacy/policy.jsx
 export const metadata = {
   title: "Política de Cookies || KauFast",
   description: "Consulta nuestra política de cookies para obtener más información sobre el uso de rastreadores en nuestro sitio web.",
