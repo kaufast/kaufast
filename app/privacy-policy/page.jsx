@@ -1,3 +1,6 @@
+// app>privacy/policy.jsx
+import "./privacy-policy.scss";
+
 export const metadata = {
     title: "Política de Privacidad || KauFast",
     description: "Consulta nuestra política de privacidad para obtener más información sobre cómo gestionamos tus datos.",
