@@ -1,12 +1,12 @@
 "use client";
 
-import { usePathname } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 import { useEffect } from "react";
 import "../public/assets/css/vendor.css";
 import "../public/assets/sass/style.scss";
 import { ParallaxProvider } from "react-scroll-parallax";
 import ScrollTop from "@/components/common/ScrollTop";
-import { Unbounded, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import ScrollTopBehaviour from "@/components/common/ScrollTopBehavier";
 
 if (typeof window !== "undefined") {
@@ -15,35 +15,65 @@ if (typeof window !== "undefined") {
   });
 }
 
-const unbounded = Unbounded({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--title-font",
-});
-
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800"],
   variable: "--body-font",
 });
 
+const GA_MEASUREMENT_ID = "G-R95SZLG0G7"; // Your GA4 Measurement ID
+
 export default function RootLayout({ children }) {
-  const path = usePathname();
-  let wow = null;
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
 
   useEffect(() => {
-    const { WOW } = require("wowjs");
-    wow = new WOW({
-      live: false,
-      mobile: false,
-    });
-    wow.init();
-  }, [path]);
+    const handleRouteChange = () => {
+      const url = `${window.location.pathname}${window.location.search}`;
+      window.gtag("config", GA_MEASUREMENT_ID, {
+        page_path: url,
+      });
+    };
+
+    // Initialize Google Analytics
+    const initializeGA = () => {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", GA_MEASUREMENT_ID, {
+        page_path: window.location.pathname,
+      });
+    };
+
+    initializeGA();
+    handleRouteChange();
+  }, [pathname, searchParams]);
 
   return (
     <html lang="es">
       <head>
-        {/* Google Tag Manager - Head */}
+        {/* Google Analytics */}
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+        ></script>
+        <script
+          id="gtag-init"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${GA_MEASUREMENT_ID}', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+        />
+
+        {/* Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -55,21 +85,21 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-        {/* Add Cookie-Script CMP */}
+        {/* Cookie-Script */}
         <script
           type="text/javascript"
           charSet="UTF-8"
           src="https://cdn.cookie-script.com/s/041f0acc3eb9ea6bcb191f2b4322dcf9.js"
         ></script>
       </head>
-      <body className={`body ${poppins.variable} ${unbounded.variable}`}>
+      <body className={`body ${poppins.variable}`}>
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-NJHK9DQ4"
             height="0"
             width="0"
-            style={{ display: 'none', visibility: 'hidden' }}
+            style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
         <ParallaxProvider>{children}</ParallaxProvider>
