@@ -1,4 +1,4 @@
-"use client";
+"use client";  // Marking the component as a Client Component
 
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
@@ -38,12 +38,6 @@ export default function RootLayout({ children }) {
       mobile: false,
     });
     wow.init();
-
-    // Dynamically load Iubenda script
-    const iubendaScript = document.createElement("script");
-    iubendaScript.src = "https://cdn.iubenda.com/iubenda.js";
-    iubendaScript.async = true;
-    document.body.appendChild(iubendaScript);
   }, [path]);
 
   return (
@@ -75,33 +69,6 @@ export default function RootLayout({ children }) {
         <ParallaxProvider>{children}</ParallaxProvider>
         <ScrollTop />
         <ScrollTopBehaviour />
-
-        {/* Add the Privacy Policy Link */}
-        <div
-          style={{
-            position: "fixed",
-            bottom: "20px",
-            right: "20px",
-            zIndex: 1000,
-          }}
-        >
-          <a
-            href="https://www.iubenda.com/privacy-policy/61958056"
-            className="iubenda-nostyle iubenda-embed"
-            title="Política de Privacidad"
-            style={{
-              backgroundColor: "#000",
-              color: "#fff",
-              padding: "10px 15px",
-              borderRadius: "5px",
-              textDecoration: "none",
-              fontSize: "14px",
-              boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-            }}
-          >
-            Política de Privacidad
-          </a>
-        </div>
       </body>
     </html>
   );
