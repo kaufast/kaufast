@@ -1,3 +1,4 @@
+// app/(homes)/home/pages.jsx
 import Footer from "@/components/footers/Footer";
 import Header1 from "@/components/headers/Header1";
 import SearchPopup from "@/components/headers/component/SearchPopup";

@@ -3,15 +3,27 @@
 export default function Contact() {
   const handleSubmit = async (event) => {
     event.preventDefault();
-
     const formData = new FormData(event.currentTarget);
-
+  
     try {
+      console.log("Sending request...");
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         body: formData,
       });
-
+  
+      console.log("Response Status:", response.status);
+  
+      // Log headers
+      for (let pair of response.headers.entries()) {
+        console.log(`${pair[0]}: ${pair[1]}`);
+      }
+  
+      // Log raw response body as text
+      const rawResponse = await response.text();
+      console.log("Raw Response:", rawResponse);
+  
+      // Decide what to do based on status
       if (response.ok) {
         alert("¡Mensaje enviado con éxito! Nos pondremos en contacto pronto.");
         event.currentTarget.reset();
@@ -19,11 +31,12 @@ export default function Contact() {
         alert("Algo salió mal. Por favor, inténtalo nuevamente.");
       }
     } catch (error) {
-      console.error("Error al enviar el formulario:", error);
+      console.error("Network or Fetch Error:", error);
       alert("Error de conexión. Por favor, inténtalo más tarde.");
     }
   };
-
+  
+  
   return (
     <div className="contact-area-1 space bg-theme shape-mockup-wrap">
       <div
