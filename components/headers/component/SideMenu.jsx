@@ -27,12 +27,13 @@ export default function SideMenu({ isOpen, setIsOpen }) {
         <div className="widget footer-widget">
           <div className="widget-about">
             <div className="footer-logo">
-              <Link scroll={false} href="/">
+              <Link scroll={false} href="/" aria-label="Navigate to homepage">
                 <Image
+                  priority
                   width={200}
                   height={50}
                   src="/assets/img/kaufast-white.svg"
-                  alt="Ovation"
+                  alt="Kaufast Logo"
                 />
               </Link>
             </div>

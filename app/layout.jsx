@@ -11,10 +11,9 @@ import ScrollTopBehaviour from "@/components/common/ScrollTopBehavier";
 
 if (typeof window !== "undefined") {
   import("bootstrap/dist/js/bootstrap.esm").then((module) => {
-    // Module is imported, you can access any exported functionality if
+    // Bootstrap functionality can be accessed here
   });
 }
-// wow js
 
 const unbounded = Unbounded({
   subsets: ["latin"],
@@ -22,7 +21,6 @@ const unbounded = Unbounded({
   variable: "--title-font",
 });
 
-// Poppins font
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800"],
@@ -32,6 +30,7 @@ const poppins = Poppins({
 export default function RootLayout({ children }) {
   const path = usePathname();
   let wow = null;
+
   useEffect(() => {
     const { WOW } = require("wowjs");
     wow = new WOW({
@@ -39,18 +38,47 @@ export default function RootLayout({ children }) {
       mobile: false,
     });
     wow.init();
-  }, [path]);
-  //useEffect(() => {
 
-  //wow?.sync();
-  //}, [path]);
+    // Dynamically load Iubenda script
+    const iubendaScript = document.createElement("script");
+    iubendaScript.src = "https://cdn.iubenda.com/iubenda.js";
+    iubendaScript.async = true;
+    document.body.appendChild(iubendaScript);
+  }, [path]);
+
   return (
     <html lang="es">
-      <body className={`body  ${poppins.variable} ${unbounded.variable}`}>
+      <body className={`body ${poppins.variable} ${unbounded.variable}`}>
         <ParallaxProvider>{children}</ParallaxProvider>
         <ScrollTop />
         <ScrollTopBehaviour />
 
+        {/* Add the Privacy Policy Link */}
+        <div
+          style={{
+            position: "fixed",
+            bottom: "20px",
+            right: "20px",
+            zIndex: 1000,
+          }}
+        >
+          <a
+            href="https://www.iubenda.com/privacy-policy/61958056"
+            className="iubenda-nostyle iubenda-embed"
+            title="Política de Privacidad"
+            style={{
+              backgroundColor: "#000",
+              color: "#fff",
+              padding: "10px 15px",
+              borderRadius: "5px",
+              textDecoration: "none",
+              fontSize: "14px",
+              boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+            }}
+          >
+            Política de Privacidad
+          </a>
+        </div>
       </body>
     </html>
   );
