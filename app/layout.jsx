@@ -48,19 +48,12 @@ export default function RootLayout({ children }) {
   //}, [path]);
   return (
     <html lang="es">
-      <Head>
-        <script
-          type="text/javascript"
-          charSet="UTF-8"
-          src="//cdn.cookie-script.com/s/041f0acc3eb9ea6bcb191f2b4322dcf9.js"
-          async
-        ></script>
-      </Head>
       <body className={`body  ${poppins.variable} ${unbounded.variable}`}>
+
         <ParallaxProvider>{children}</ParallaxProvider>
         <ScrollTop />
         <ScrollTopBehaviour />
-
+        <script type="text/javascript" charSet="UTF-8" src="//cdn.cookie-script.com/s/041f0acc3eb9ea6bcb191f2b4322dcf9.js"></script>
       </body>
     </html>
   );
