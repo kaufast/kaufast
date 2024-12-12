@@ -49,7 +49,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body className={`body  ${poppins.variable} ${unbounded.variable}`}>
-
         <ParallaxProvider>{children}</ParallaxProvider>
         <ScrollTop />
         <ScrollTopBehaviour />
