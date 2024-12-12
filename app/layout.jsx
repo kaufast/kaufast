@@ -9,6 +9,7 @@ import ScrollTop from "@/components/common/ScrollTop";
 import { Unbounded, Poppins } from "next/font/google";
 import ScrollTopBehaviour from "@/components/common/ScrollTopBehavier";
 import Head from 'next/head';
+import { GoogleTagManager } from '@next/third-parties/google' 
 
 
 if (typeof window !== "undefined") {
@@ -48,8 +49,20 @@ export default function RootLayout({ children }) {
   //}, [path]);
   return (
     <html lang="es">
+            <GoogleTagManager gtmId="GTM-NJHK9DQ4" />
       <body className={`body  ${poppins.variable} ${unbounded.variable}`}>
-        <ParallaxProvider>{children}</ParallaxProvider>
+      <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJHK9DQ4"
+        height="0" 
+        width="0" 
+        style={{ display: "none", visibility: "hidden" }}>
+        </iframe>
+      </noscript>
+        <ParallaxProvider>
+
+          {children}
+
+          </ParallaxProvider>
         <ScrollTop />
         <ScrollTopBehaviour />
         <script type="text/javascript" charSet="UTF-8" src="//cdn.cookie-script.com/s/041f0acc3eb9ea6bcb191f2b4322dcf9.js"></script>
