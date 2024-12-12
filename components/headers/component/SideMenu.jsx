@@ -32,8 +32,9 @@ export default function SideMenu({ isOpen, setIsOpen }) {
                   width={200}
                   height={50}
                   src="/assets/img/kaufast-white.svg"
-                  alt="Ovation"
-                />
+                  alt="Kaufast - Agencia SEO y Diseño Web"
+                  priority
+                  />
               </Link>
             </div>
             <p className="about-text">

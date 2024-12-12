@@ -77,8 +77,9 @@ export default function Header1() {
                 width={120}
                 height={45}
                 src="/assets/img/kaufast-logo.svg"
-                alt="Ovation"
-              />
+                alt="Kaufast - Agencia SEO y Diseño Web"
+                priority
+                />
             </Link>
           </div>
           <div className="mobile-menu">
@@ -119,7 +120,8 @@ export default function Header1() {
                         width={86}
                         height={24}
                         src="/assets/img/kaufast-logo.svg"
-                        alt="logo"
+                        alt="Kaufast - Agencia SEO y Diseño Web"
+                        priority
                       />
                     </Link>
                   </div>

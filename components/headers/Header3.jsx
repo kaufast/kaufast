@@ -75,8 +75,9 @@ export default function Header3() {
                 width={24}
                 style={{ width: "86px", height: "24px" }}
                 src="/assets/img/kaufast-logo.svg"
-                alt="Ovation"
-              />
+                alt="Kaufast - Agencia SEO y Diseño Web"
+                priority
+                />
             </Link>
           </div>
           <div className="mobile-menu">
@@ -117,7 +118,8 @@ export default function Header3() {
                         width={86}
                         height={24}
                         src="/assets/img/kaufast-logo.svg"
-                        alt="logo"
+                        alt="Kaufast - Agencia SEO y Diseño Web"
+                        priority
                       />
                     </Link>
                   </div>
