@@ -6,9 +6,10 @@ import "../public/assets/css/vendor.css";
 import "../public/assets/sass/style.scss";
 import { ParallaxProvider } from "react-scroll-parallax";
 import ScrollTop from "@/components/common/ScrollTop";
-import CookieConsentBanner from "@/components/common/CookieConsentBanner"; // Import the Cookie Consent Component
 import { Unbounded, Poppins } from "next/font/google";
 import ScrollTopBehaviour from "@/components/common/ScrollTopBehavier";
+import Head from 'next/head';
+
 
 if (typeof window !== "undefined") {
   import("bootstrap/dist/js/bootstrap.esm").then((module) => {
@@ -47,11 +48,18 @@ export default function RootLayout({ children }) {
   //}, [path]);
   return (
     <html lang="es">
+      <Head>
+        <script
+          type="text/javascript"
+          charSet="UTF-8"
+          src="//cdn.cookie-script.com/s/041f0acc3eb9ea6bcb191f2b4322dcf9.js"
+          async
+        ></script>
+      </Head>
       <body className={`body  ${poppins.variable} ${unbounded.variable}`}>
         <ParallaxProvider>{children}</ParallaxProvider>
         <ScrollTop />
         <ScrollTopBehaviour />
-        <CookieConsentBanner /> {/* Add the Cookie Consent Banner here */}
 
       </body>
     </html>
