@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@next/third-parties": "^15.1.0",
@@ -16,6 +17,7 @@
     "imagesloaded": "^5.0.0",
     "isotope-layout": "^3.0.6",
     "next": "^14.2.13",
+    "next-sitemap": "^4.2.3",
     "react": "^18",
     "react-cookie-consent": "^9.0.0",
     "react-dom": "^18",
